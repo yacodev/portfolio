@@ -1,6 +1,17 @@
 import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
+import iconUser from "../../images/avatar_carlos_opt.png"
+import styled from "@emotion/styled";
+
+const ContainerAvatar = styled.div`
+  
+  img{
+    height:150px;
+    width:150px;
+  }
+`
+
 
 function Herosection(props) {
   const { x, y } = props.position;
@@ -24,18 +35,20 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <img src="images/avatar-1.svg" alt="Bolby" className="mb-4" />
+          <ContainerAvatar>
+            <img src={iconUser} alt="Bolby" className="mb-4" />
+          </ContainerAvatar>
 
-          <h1 className="mb-2 mt-0">Bolby Doe</h1>
+          <h1 className="mb-2 mt-0">Carlos Yaco</h1>
           <p>
-            I'm a{" "}
+            {" "}
             <Typed
               strings={[
-                "UI/UX designer ",
-                "Front-End developer",
-                "Photography lover",
+                "Desarrollador Back-end",
+                "Desarrollador Front-end",
+                "Ingeniero Electrónico",
               ]}
-              typeSpeed={80}
+              typeSpeed={100}
               backSpeed={40}
               attr="value"
               loop
@@ -46,28 +59,23 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-instagram"></i>
+              <a href="https://github.com/yacodev" target="_blank">
+                <i className="fab fa-github"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
+              <a href="https://www.linkedin.com/in/carlos-yaco-tincusi/" target="_blank">
+                <i className="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="https://twitter.com/yacodev" target="_blank">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-behance"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-dribbble"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-pinterest-p"></i>
+              <a href="https://t.me/carlosyaco" target="_blank">
+                <i className="fab fa-telegram"></i>
               </a>
             </li>
           </ul>
@@ -80,7 +88,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              Hire me
+              Contactame
             </Link>
           </div>
         </div>
@@ -190,7 +198,6 @@ function Herosection(props) {
           >
             <g fill="#FF4C60" fillRule="evenodd">
               <path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z" />
-              <path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z" />
             </g>
           </svg>
 
@@ -251,7 +258,6 @@ function Herosection(props) {
           >
             <g fill="#44D7B6" fillRule="evenodd">
               <path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z" />
-              <path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z" />
             </g>
           </svg>
 
