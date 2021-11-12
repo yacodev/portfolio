@@ -120,7 +120,7 @@ function Herosection(props) {
               d="M1 11C1 13.2091 2.79086 15 5 15H14C16.7614 15 19 12.7614 19 10C19 7.23858 16.7614 5 14 5C13.9666 5 13.9334 5.00033 13.9002 5.00098C13.4373 2.71825 11.4193 1 9 1C6.23858 1 4 3.23858 4 6C4 6.37684 4.04169 6.74395 4.12071 7.09695C2.33457 7.4976 1 9.09295 1 11Z"
               fill="none"
               stroke="#FFD15C"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              strokeWidth="2"
             />
           </svg>
 
@@ -275,7 +275,7 @@ function Herosection(props) {
               d="M1 11C1 13.2091 2.79086 15 5 15H14C16.7614 15 19 12.7614 19 10C19 7.23858 16.7614 5 14 5C13.9666 5 13.9334 5.00033 13.9002 5.00098C13.4373 2.71825 11.4193 1 9 1C6.23858 1 4 3.23858 4 6C4 6.37684 4.04169 6.74395 4.12071 7.09695C2.33457 7.4976 1 9.09295 1 11Z"
               fill="none"
               stroke="#FFD15C"
-              strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"
+              strokeWidth="2" 
             />
           </svg>
         </div>

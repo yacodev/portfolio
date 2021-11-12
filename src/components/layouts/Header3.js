@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import Logo from "../elements/Logo";
+import styled from "@emotion/styled";
 
-function Header3({ light, logoSource, bootstrapNav }) {
+const ContainerHeader = styled.div`
+  display:flex;
+  justify-content:center;
+`
+
+
+function Header3({ light }) {
   const [toggleNavbar, setToggleNavbar] = useState(false);
 
   const handleMobilenav = (e) => {
@@ -26,7 +32,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
     >
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
-          <Logo logoSource={logoSource} bootstrapNav={bootstrapNav} />
+          
           <button
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
@@ -39,7 +45,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div
+          <ContainerHeader
             className={
               toggleNavbar
                 ? "collapse navbar-collapse show"
@@ -69,19 +75,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  About
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  activeClass="active"
-                  className="nav-link"
-                  to="section-services"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
-                >
-                  Service
+                  Acerca
                 </Link>
               </li>
               <li className="nav-item">
@@ -93,7 +87,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  Experience
+                  Experiencia
                 </Link>
               </li>
               <li className="nav-item">
@@ -105,7 +99,7 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  Works
+                  Proyectos
                 </Link>
               </li>
               <li className="nav-item">
@@ -129,11 +123,11 @@ function Header3({ light, logoSource, bootstrapNav }) {
                   smooth={true}
                   duration={500}
                 >
-                  Contact
+                  Contacto
                 </Link>
               </li>
             </ul>
-          </div>
+          </ContainerHeader>
         </nav>
       </div>
     </header>
