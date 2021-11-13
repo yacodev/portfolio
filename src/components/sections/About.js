@@ -68,16 +68,6 @@ function About() {
           </div>
         </div>
         <div className="spacer" data-height="70"></div>
-        <Pagetitle title="Skills" />
-        <div className="row fix-spacing">
-          {counterData.map((counter) => (
-            <div key={counter.id} className="col-md-3 col-sm-6">
-              <TrackVisibility once>
-                <Counter counterItem={counter} />
-              </TrackVisibility>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
