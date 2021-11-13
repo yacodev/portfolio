@@ -5,48 +5,48 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "Full stack Develper",
+    years: "2021",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Intensive full-stack web development education program (full-time, 6 months) by Codeable (www.codeable.la)	",
   },
   {
     id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
+    title: "Master Degree",
+    years: "2017 - 2018",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Master’s in Project Management and Planning in Engineering by Polytechnic University of Valencia	- Spain",
   },
   {
     id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
+    title: "Electronic Engineer",
+    years: "2003 - 2008",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Electronic Engineer by National University San Antonio Abad of Cusco	- Perú",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "Web Designer and Product Owner",
+    years: "January 2020 – December 2020",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Construtec Perú is a company of Software development for the construction sector. We build the software CPIP (Control of Public Investment Project).",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
+    title: "Product Owner",
+    years: "October 2019 – December 2019",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Smart Cities Peru is a Software development company	",
   },
   {
     id: 3,
-    title: "Back-End Developer",
-    years: "2013 - 2009",
+    title: "Project Engineer",
+    years: "January 2019 – September 2019",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Regional Government of Cusco",
   },
 ];
 

@@ -11,8 +11,8 @@ function Timeline({ education }) {
     >
       <div className="timeline-container">
         <div className="content">
-          <span className="time">{years}</span>
           <h3 className="title">{title}</h3>
+          <span className="time">{years}</span>
           <p>{content}</p>
         </div>
       </div>

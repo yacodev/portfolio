@@ -1,36 +1,16 @@
 import React from "react";
-import TrackVisibility from "react-on-screen";
 import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
-import Skill from "../elements/Skill";
+import TrackVisibility from "react-on-screen";
 
 const aboutContent = {
-  name: "Bolby",
+  name: "Carlos",
   avatarImage: "/images/avatar-2.svg",
-  content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+  content:[
+    `I’m a full-Stack Developer in love with technology who enjoys solving problems using software. I have two years of experience leading and working with teams to develop software for the construction sector, and in this period I founded my own startup (Construtec), it was a great experience.`,
+    `Before I worked as a project manager in the construction sector, I worked for the Peruvian government building tracks, schools, and hospitals, but I always wanted to learn to develop software and try to solve problems using technology, so I started to study in Platzy and Codeable(Bootcamp), it was the best decision in my life.`,
+    `I enjoy reading books about technology companies and everything related to entrepreneurship. I look forward to applying my leadership skills to help solve global problems in the technology industry`]
 };
-
-const progressData = [
-  {
-    id: 1,
-    title: "Development",
-    percantage: 85,
-    progressColor: "#FFD15C",
-  },
-  {
-    id: 2,
-    title: "UI/UX Design",
-    percantage: 95,
-    progressColor: "#FF4C60",
-  },
-  {
-    id: 3,
-    title: "Photography",
-    percantage: 70,
-    progressColor: "#6C6CE5",
-  },
-];
 
 const counterData = [
   {
@@ -65,18 +45,14 @@ function About() {
       <div className="container">
         <Pagetitle title="About Me" />
         <div className="row">
-          <div className="col-md-3">
-            <div className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} />
-            </div>
-            <div className="spacer d-md-none d-lg-none" data-height="30"></div>
-          </div>
 
-          <div className="col-md-9 triangle-left-md triangle-top-sm">
+          <div className="col-md-12 triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
-                <div className="col-md-6">
-                  <p>{aboutContent.content}</p>
+                <div className="col-md-12">
+                  <p>{aboutContent.content[0]}</p>
+                  <p>{aboutContent.content[1]}</p>
+                  <p>{aboutContent.content[2]}</p>
                   <div className="mt-3">
                     <a href="!#" className="btn btn-default">
                       Download CV
@@ -87,22 +63,12 @@ function About() {
                     data-height="30"
                   ></div>
                 </div>
-                <div className="col-md-6">
-                  {progressData.map((progress) => (
-                    <TrackVisibility
-                      once
-                      key={progress.id}
-                      className="progress-wrapper"
-                    >
-                      <Skill progress={progress} />
-                    </TrackVisibility>
-                  ))}
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="spacer" data-height="70"></div>
+        <Pagetitle title="Skills" />
         <div className="row fix-spacing">
           {counterData.map((counter) => (
             <div key={counter.id} className="col-md-3 col-sm-6">
