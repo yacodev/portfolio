@@ -6,28 +6,28 @@ import Service from "../elements/Service";
 const servicesData = [
   {
     id: 1,
-    icon: "images/service-1.svg",
-    title: "UI/UX design",
+    icon: "images/service-2.svg",
+    title: "Web Development",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Build the technical and useful solution to fit with the necessity of your business online.",
     color: "#6C6CE5",
     contentColor: "light",
   },
   {
     id: 2,
-    icon: "images/service-2.svg",
-    title: "Web Development",
+    icon: "images/price-3.svg",
+    title: "Build MVP",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "Don't wait months to validate your idea. We can build an MVP in weeks and launch to the market.",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
-    icon: "images/service-3.svg",
-    title: "Photography",
+    icon: "images/price-1.svg",
+    title: "Consult",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "I can help you with your business model, product design and solve your doubts about the technology.",
     color: "#F97B8B",
     contentColor: "light",
   },
