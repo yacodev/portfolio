@@ -7,10 +7,10 @@ const allBlogs = [
   {
     id: 1,
     title: "5 Best App Development Tool for Your Project",
-    image: "images/blog/1.svg",
+    image: "images/blog/project2.png",
     filesource: "../../blogs/best-app-development-tool.md",
     date: "09 February, 2020",
-    author: "Bolby",
+    author: "Carlos",
     category: "Reviews",
   },
   {

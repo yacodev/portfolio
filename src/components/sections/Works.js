@@ -7,8 +7,8 @@ const allData = [
     id: 1,
     title: "Project Managment Illustration",
     category: "art",
-    image: "images/works/1.svg",
-    popupLink: ["images/works/1.svg"],
+    image: "images/works/work_1.png",
+    popupLink: ["images/works/work_1.png"],
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const allData = [
     id: 3,
     title: "Delivery App Wireframe",
     category: "branding",
-    image: "images/works/3.svg",
+    image: "images/works/work_3.png",
     popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
   }
 ];

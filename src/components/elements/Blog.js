@@ -6,9 +6,11 @@ function Blog({ blogData }) {
   const { id, category, title, date, author, image, filesource } = blogData;
   const getNospaceTitle = (filesource) => {
     let tempArr = filesource.split("/");
+    console.log("este",tempArr);
     let fileName = tempArr[tempArr.length - 1];
     let getName = fileName.slice(0, -3);
-    return getName;
+    console.log("este--",getName);
+    return getName ;
   };
   return (
     <ScrollAnimation
