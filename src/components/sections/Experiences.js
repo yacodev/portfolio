@@ -5,24 +5,24 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Full stack Develper",
+    title: "Desarrollador Full stack",
     years: "2021",
     content:
-      "Intensive full-stack web development education program (full-time, 6 months) by Codeable (www.codeable.la)	",
+      "Programa de Educación intensivo en full-stack web development (Tiempo completo, 6 months) por Codeable (www.codeable.la)	",
   },
   {
     id: 2,
-    title: "Master Degree",
+    title: "Master",
     years: "2017 - 2018",
     content:
-      "Master’s in Project Management and Planning in Engineering by Polytechnic University of Valencia	- Spain",
+      "Master en Planificación y gestión en Ingenieria por la Universidad Politécnica de Valencia - España",
   },
   {
     id: 3,
-    title: "Electronic Engineer",
+    title: "Ingeniero Electrónico",
     years: "2003 - 2008",
     content:
-      "Electronic Engineer by National University San Antonio Abad of Cusco	- Perú",
+      "Ingeniero Electrónico por la Universidad Nacional de San Antonio Abad del Cusco - Perú",
   },
 ];
 
@@ -30,23 +30,23 @@ const experienceData = [
   {
     id: 1,
     title: "Web Designer and Product Owner",
-    years: "January 2020 – December 2020",
+    years: "Enero 2020 – Diciembre 2020",
     content:
-      "Construtec Perú is a company of Software development for the construction sector. We build the software CPIP (Control of Public Investment Project).",
+      "Construtec Perú es una start-up de desarrollo de software para el sector de la construcción. Nosotros desarrollamos el CPIP (Control de Proyectos de Inversión Pública).",
   },
   {
     id: 2,
     title: "Product Owner",
-    years: "October 2019 – December 2019",
+    years: "Octubre 2019 – Diciembre 2019",
     content:
-      "Smart Cities Peru is a Software development company	",
+      "Smart Cities Peru es una compañia de desarrollo de software.",
   },
   {
     id: 3,
-    title: "Project Engineer",
-    years: "January 2019 – September 2019",
+    title: "Ingeniero de Proyectos",
+    years: "Enero 2019 – Setiembre 2019",
     content:
-      "Regional Government of Cusco",
+      "Gobierno Regional del Cusco - Perú",
   },
 ];
 
@@ -54,7 +54,7 @@ function Experiences() {
   return (
     <section id="experience">
       <div className="container">
-        <Pagetitle title="Experience" />
+        <Pagetitle title="Experiencia" />
         <div className="row">
           <div className="col-md-6">
             <div className="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">

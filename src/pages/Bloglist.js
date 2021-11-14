@@ -6,93 +6,48 @@ import Pagination from "../components/elements/Pagination";
 const allBlogs = [
   {
     id: 1,
-    title: "5 Best App Development Tool for Your Project",
-    image: "images/blog/1.svg",
-    filesource: "../../blogs/best-app-development-tool.md",
-    date: "09 February, 2020",
-    author: "Bolby",
-    category: "Reviews",
+    title: "Sistema de telemetría aplicada al monitoreo de la cantiad de solución madre en sistemas de abastecimiento rural de agua",
+    image: "images/blog/blog_water.png",
+    filesource: "../../blogs/project-water.md",
+    date: "Noviembre, 2021",
+    author: "Carlos Yaco",
+    category: "Project",
   },
   {
     id: 2,
-    title: "Common Misconceptions About Payment",
-    image: "images/blog/2.svg",
-    filesource: "../../blogs/common-misconceptions-about-payment.md",
-    date: "07 February, 2020",
-    author: "Bolby",
-    category: "Tutorial",
+    title: "Eso nunca Funcionará (el nacimiento de Netflix)",
+    image: "images/blog/blog_netflix.png",
+    filesource: "../../blogs/blog-netflix.md",
+    date: "Octubre, 2021",
+    author: "Carlos Yaco",
+    category: "Book",
   },
   {
     id: 3,
-    title: "3 Things To Know About Startup Business",
-    image: "images/blog/3.svg",
-    filesource: "../../blogs/things-to-know-about-startup-business.md",
-    date: "06 February, 2020",
-    author: "Bolby",
-    category: "Business",
+    title: "Four - el ADN secreto de Amazon, Apple, Facebook y Google",
+    image: "images/blog/blog_four_opt.png",
+    filesource: "../../blogs/blog-four.md",
+    date: "Octubre, 2021",
+    author: "Carlos Yaco",
+    category: "Book",
   },
   {
     id: 4,
-    title: "5 Best App Development Tool for Your Project",
-    image: "images/blog/1.svg",
-    filesource: "../../blogs/best-app-development-tool.md",
-    date: "09 February, 2020",
-    author: "Bolby",
-    category: "Reviews",
+    title: "El libro negro del Emprendedor",
+    image: "images/blog/blog_entrepreneur.png",
+    filesource: "../../blogs/blog-entrepreneur.md",
+    date: "Setiembre, 2021",
+    author: "Carlos Yaco",
+    category: "Book",
   },
   {
     id: 5,
-    title: "Common Misconceptions About Payment",
-    image: "images/blog/2.svg",
-    filesource: "../../blogs/common-misconceptions-about-payment.md",
-    date: "07 February, 2020",
-    author: "Bolby",
-    category: "Tutorial",
-  },
-  {
-    id: 6,
-    title: "3 Things To Know About Startup Business",
-    image: "images/blog/3.svg",
-    filesource: "../../blogs/things-to-know-about-startup-business.md",
-    date: "06 February, 2020",
-    author: "Bolby",
-    category: "Business",
-  },
-  {
-    id: 7,
-    title: "5 Best App Development Tool for Your Project",
-    image: "images/blog/1.svg",
-    filesource: "../../blogs/best-app-development-tool.md",
-    date: "09 February, 2020",
-    author: "Bolby",
-    category: "Reviews",
-  },
-  {
-    id: 8,
-    title: "Common Misconceptions About Payment",
-    image: "images/blog/2.svg",
-    filesource: "../../blogs/common-misconceptions-about-payment.md",
-    date: "07 February, 2020",
-    author: "Bolby",
-    category: "Tutorial",
-  },
-  {
-    id: 9,
-    title: "3 Things To Know About Startup Business",
-    image: "images/blog/3.svg",
-    filesource: "../../blogs/things-to-know-about-startup-business.md",
-    date: "06 February, 2020",
-    author: "Bolby",
-    category: "Business",
-  },
-  {
-    id: 10,
-    title: "5 Best App Development Tool for Your Project",
-    image: "images/blog/1.svg",
-    filesource: "../../blogs/best-app-development-tool.md",
-    date: "09 February, 2020",
-    author: "Bolby",
-    category: "Reviews",
+    title: "El millonario de Silicon Valley",
+    image: "images/blog/blog_silicon_valley.png",
+    filesource: "../../blogs/blog-silicon-valley.md",
+    date: "Setiembre, 2021",
+    author: "Carlos Yaco",
+    category: "Book",
   },
 ];
 
@@ -132,11 +87,7 @@ function Bloglist() {
 
   return (
     <>
-      <Header
-        logoSource="/images/logo.svg"
-        toggleMenu={toggleMenu}
-        headerToggler={headerToggler}
-      />
+      <Header/>
       <main className={toggleMenu ? "content open" : "content"}>
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section">

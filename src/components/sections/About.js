@@ -7,43 +7,17 @@ const aboutContent = {
   name: "Carlos",
   avatarImage: "/images/avatar-2.svg",
   content:[
-    `I’m a full-Stack Developer in love with technology who enjoys solving problems using software. I have two years of experience leading and working with teams to develop software for the construction sector, and in this period I founded my own startup (Construtec), it was a great experience.`,
-    `Before I worked as a project manager in the construction sector, I worked for the Peruvian government building tracks, schools, and hospitals, but I always wanted to learn to develop software and try to solve problems using technology, so I started to study in Platzy and Codeable(Bootcamp), it was the best decision in my life.`,
-    `I enjoy reading books about technology companies and everything related to entrepreneurship. I look forward to applying my leadership skills to help solve global problems in the technology industry`]
+    `Soy desarrollador full-Stack, disfruto usar la tecnología como una herramienta para resolver problemas y mejorar la vida de los demás. Tengo dos años de experiencia liderando y trabajando con equipos para desarrollar software en el sector de la Construcción, y en este periodo pude fundar mi start-up (Construtec), fue una gran experiencia.`,
+    `Antes trabaja como Ingeniero de Proyectos en el sector de la Construcción, trabaje en el gobierno Peruano construyendo pistas, escuelas y hospitales, pero siempre quise aprender a programar para comenzar a desarrollar soluciones basadas en software, por eso comencé a estudiar en Platzi y me inscribí en el Bootcamp de codeable, fue una de las mejores decisiones de mi vida.`,
+    `Disfruto leyendo libros sobre empresas de tecnología y todo lo relacionado con el emprendimiento. Espero poder colaborar y aplicar mis habilidades de liderazgo para ayudar a resolver todo tipo de problemas en la industria de la tecnología`]
 };
 
-const counterData = [
-  {
-    id: 1,
-    title: "Projects completed",
-    count: 198,
-    icon: "icon-fire",
-  },
-  {
-    id: 2,
-    title: "Cup of coffee",
-    count: 5670,
-    icon: "icon-cup",
-  },
-  {
-    id: 3,
-    title: "Satisfied clients",
-    count: 427,
-    icon: "icon-people",
-  },
-  {
-    id: 4,
-    title: "Nominees winner",
-    count: 35,
-    icon: "icon-badge",
-  },
-];
 
 function About() {
   return (
     <section id="about">
       <div className="container">
-        <Pagetitle title="About Me" />
+        <Pagetitle title="Acerca de mi" />
         <div className="row">
 
           <div className="col-md-12 triangle-left-md triangle-top-sm">
@@ -55,7 +29,7 @@ function About() {
                   <p>{aboutContent.content[2]}</p>
                   <div className="mt-3">
                     <a href="!#" className="btn btn-default">
-                      Download CV
+                      Descarga CV
                     </a>
                   </div>
                   <div

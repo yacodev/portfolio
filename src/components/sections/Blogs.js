@@ -6,38 +6,38 @@ import Pagetitle from "../elements/Pagetitle";
 const allBlogs = [
   {
     id: 1,
-    title: "5 Best App Development Tool for Your Project",
-    image: "images/blog/project2.png",
-    filesource: "../../blogs/best-app-development-tool.md",
-    date: "09 February, 2020",
-    author: "Carlos",
-    category: "Reviews",
+    title: "Sistema de telemetría aplicada al monitoreo de la cantiad de solución madre en sistemas de abastecimiento rural de agua",
+    image: "images/blog/blog_water.png",
+    filesource: "../../blogs/project-water.md",
+    date: "Noviembre, 2021",
+    author: "Carlos Yaco",
+    category: "Project",
   },
   {
     id: 2,
-    title: "Common Misconceptions About Payment",
-    image: "images/blog/2.svg",
-    filesource: "../../blogs/common-misconceptions-about-payment.md",
-    date: "07 February, 2020",
-    author: "Bolby",
-    category: "Tutorial",
+    title: "Eso nunca Funcionará (el nacimiento de Netflix)",
+    image: "images/blog/blog_netflix.png",
+    filesource: "../../blogs/blog-netflix.md",
+    date: "Octubre, 2021",
+    author: "Carlos Yaco",
+    category: "Book",
   },
   {
     id: 3,
-    title: "3 Things To Know About Startup Business",
-    image: "images/blog/3.svg",
-    filesource: "../../blogs/things-to-know-about-startup-business.md",
-    date: "06 February, 2020",
-    author: "Bolby",
-    category: "Business",
-  },
+    title: "Four - el ADN secreto de Amazon, Apple, Facebook y Google",
+    image: "images/blog/blog_four_opt.png",
+    filesource: "../../blogs/blog-four.md",
+    date: "Octubre, 2021",
+    author: "Carlos Yaco",
+    category: "Book",
+  }
 ];
 
 function Blogs() {
   return (
     <section id="blog">
       <div className="container">
-        <Pagetitle title="Latest Posts" />
+        <Pagetitle title="Ultimos blogs" />
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
             <div className="col-md-4" key={blogItem.id}>
@@ -48,7 +48,7 @@ function Blogs() {
         <div className="text-center">
           <div className="spacer" data-height="30"></div>
           <Link to="/blogs" className="btn btn-default">
-            Show all blogs
+            Ver más
           </Link>
         </div>
       </div>

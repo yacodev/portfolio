@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import Header from "../components/layouts/Header";
 
-function BlogDetails(props) {
+function WordDetails(props) {
   const [content, setContent] = useState("");
   const blogFile = props.match.params.title;
 
   useEffect(() => {
-    import(`../blogs/${blogFile}.md`)
+    import(`../works/${blogFile}.md`)
       .then((res) => res.default)
       .then((res) => {
         fetch(res)
@@ -34,7 +34,11 @@ function BlogDetails(props) {
 
   return (
     <>
-      <Header />
+      <Header
+        logoSource="/images/logo.svg"
+        toggleMenu={toggleMenu}
+        headerToggler={headerToggler}
+      />
       <main className={toggleMenu ? "content open" : "content"}>
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section">
@@ -50,4 +54,4 @@ function BlogDetails(props) {
   );
 }
 
-export default BlogDetails;
+export default WordDetails;

@@ -29,7 +29,7 @@ function Contact() {
       setMessage("Message is required");
     } else {
       setError(false);
-      setMessage("You message has been sent!!!");
+      setMessage("Tu mensaje ha sido enviado!!!");
     }
   };
 
@@ -53,7 +53,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <Pagetitle title="Get in Touch" />
+        <Pagetitle title="Contactame" />
 
         <div className="row">
           <div className="col-md-4">
@@ -63,7 +63,7 @@ function Contact() {
                 animateOut="fadeInOut"
                 animateOnce={true}
               >
-                <h3>Let's talk about everything!</h3>
+                <h3>Vamos a hablar!</h3>
               </ScrollAnimation>
               <ScrollAnimation
                 animateIn="fadeInUp"
@@ -71,8 +71,8 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  Don't like forms? Send me an{" "}
-                  <a href="mailto:name@example.com">email</a>. 👋
+                  ¿No te gustan los formularios? Enviame un {" "}
+                  <a href="mailto:cyaco33@gmail.com">email</a>. 👋
                 </p>
               </ScrollAnimation>
             </div>
@@ -92,7 +92,7 @@ function Contact() {
                       className="form-control"
                       name="name"
                       id="InputName"
-                      placeholder="Your name"
+                      placeholder="Nombre"
                       onChange={handleChange}
                       value={formdata.name}
                     />
@@ -106,7 +106,7 @@ function Contact() {
                       className="form-control"
                       id="InputEmail"
                       name="email"
-                      placeholder="Email address"
+                      placeholder="Email"
                       onChange={handleChange}
                       value={formdata.email}
                     />
@@ -120,7 +120,7 @@ function Contact() {
                       className="form-control"
                       id="InputSubject"
                       name="subject"
-                      placeholder="Subject"
+                      placeholder="Asunto"
                       onChange={handleChange}
                       value={formdata.subject}
                     />
@@ -134,7 +134,7 @@ function Contact() {
                       id="InputMessage"
                       className="form-control"
                       rows="5"
-                      placeholder="Message"
+                      placeholder="Mensage"
                       onChange={handleChange}
                       value={formdata.message}
                     ></textarea>
@@ -148,7 +148,7 @@ function Contact() {
                 value="Submit"
                 className="btn btn-default"
               >
-                Send Message
+                Enviar Mensaje
               </button>
             </form>
             {handleAlerts()}

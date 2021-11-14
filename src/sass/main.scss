@@ -2,7 +2,7 @@
 /*                      SECTIONS                             
 /*=================================================================*/
 main.content {
-  margin-left: 290px;
+  margin-left: 0px;
   @include transition(0.3s);
 
   &.open {
@@ -526,7 +526,7 @@ select.portfolio-filter-mobile {
   -ms-transform: translateY(0);
   transform: translateY(0);
   @include transition(0.3s);
-
+  
   &:hover {
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);

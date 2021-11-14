@@ -1,57 +1,46 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import Work from "../elements/Work";
 import Pagetitle from "../elements/Pagetitle";
-import Portfolio from "../elements/Portfolio";
 
-const allData = [
+const allWorks = [
   {
     id: 1,
-    title: "Project Managment Illustration",
-    category: "art",
-    image: "images/works/work_1.png",
-    popupLink: ["images/works/work_1.png"],
+    title: "Construtec",
+    image: "images/works/work1_construtec.png",
+    filesource: "../../works/construtec.md",
+    description: "Desarrolle la pagina web de la empresa y dirigí al equipo durante el desarrollo del software CPIP.",
+    category: "Proyecto"
   },
   {
     id: 2,
-    title: "Guest App Walkthrough Screens",
-    category: "creative",
-    image: "images/works/2.svg",
-    popupLink: [
-      "images/works/2.svg",
-      "images/works/5.svg",
-      "images/works/6.svg",
-    ],
+    title: "Seguimiento a la ejecución de proyectos de Inversión",
+    image: "images/works/work2_spip.png",
+    filesource: "../../works/spip.md",
+    description: "Desarrollamos la plataforma web para realizar el seguimiento al avance de las obras del gobierno regional de Cusco.",
+    category: "Proyecto",
   },
   {
     id: 3,
-    title: "Delivery App Wireframe",
-    category: "branding",
-    image: "images/works/work_3.png",
-    popupLink: ["https://www.youtube.com/watch?v=qf9z4ulfmYw"],
-  }
+    title: "Plataforma de Capacitación para ATMs",
+    image: "images/works/work3_capacitation.png",
+    filesource: "../../works/capacitation.md",
+    description: "Desarrollamos la plataforma web para realizar capacitaciones al personal de las ATMs en la región del Cusco.",
+    category: "Proyecto",
+  },
 ];
 
-function Works() {  
-  const [visibleItems, setVisibleItems] = useState([]);
-
-  useEffect(() => {
-    setVisibleItems(allData);
-
-  }, []);
-
-  
+function Works() {
   return (
-    <section id="works">
+    <section id="blog">
       <div className="container">
-        <Pagetitle title="Recent Works" />
-        {/* Start Portfolio Items */}
-        <div className="row portfolio-wrapper">
-          {visibleItems.map((item) => (
-            <div className="col-md-4 col-sm-6 grid-item" key={item.id}>
-              <Portfolio portfolio={item} />
+        <Pagetitle title="Proyectos" />
+        <div className="row blog-wrapper">
+          {allWorks.map((workItem) => (
+            <div className="col-md-4" key={workItem.id}>
+              <Work workData={workItem} />
             </div>
           ))}
         </div>
-        {/* End Portfolio Items */}
       </div>
     </section>
   );

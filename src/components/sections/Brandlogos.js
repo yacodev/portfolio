@@ -51,7 +51,7 @@ function Brandlogos() {
   return (
     <div id="branglogos">
       <div className="container">
-      <Pagetitle title="Skills" />
+      <Pagetitle title="Conocimientos" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
             <div className="col-md-1 col-6" key={brandlogo.id}>

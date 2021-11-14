@@ -61,7 +61,7 @@ function Header({ light }) {
                   to="section-home"
                   spy={true}
                   smooth={true}
-                  duration={500}
+                  duration={300}
                 >
                   Home
                 </Link>
@@ -73,7 +73,7 @@ function Header({ light }) {
                   to="section-about"
                   spy={true}
                   smooth={true}
-                  duration={500}
+                  duration={300}
                 >
                   Acerca
                 </Link>
@@ -85,7 +85,7 @@ function Header({ light }) {
                   to="section-experiences"
                   spy={true}
                   smooth={true}
-                  duration={500}
+                  duration={300}
                 >
                   Experiencia
                 </Link>
@@ -97,7 +97,7 @@ function Header({ light }) {
                   to="section-works"
                   spy={true}
                   smooth={true}
-                  duration={500}
+                  duration={300}
                 >
                   Proyectos
                 </Link>
@@ -109,7 +109,7 @@ function Header({ light }) {
                   to="section-blogs"
                   spy={true}
                   smooth={true}
-                  duration={500}
+                  duration={300}
                 >
                   Blog
                 </Link>
@@ -121,7 +121,7 @@ function Header({ light }) {
                   to="section-contact"
                   spy={true}
                   smooth={true}
-                  duration={500}
+                  duration={300}
                 >
                   Contacto
                 </Link>
