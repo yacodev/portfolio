@@ -10,12 +10,12 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/portfolio/" exact>
           <Homepage />
         </Route>
-        <Route path="/blogs" component={Bloglist} exact />
-        <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
-        <Route path="/works/work-details/:id/:title" component={WordDetails} />
+        <Route path="/portfolio/blogs" component={Bloglist} exact />
+        <Route path="/portfolio/blogs/blog-details/:id/:title" component={BlogDetails} />
+        <Route path="/portfolio/works/work-details/:id/:title" component={WordDetails} />
       </Switch>
     </BrowserRouter>
   );
