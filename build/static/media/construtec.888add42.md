@@ -1,4 +1,4 @@
-![Construtec](/images/works/work1_construtec_opt.png)
+![Construtec](/images/works/work1_construtec.png)
 
 ### Construtec Perú
 
