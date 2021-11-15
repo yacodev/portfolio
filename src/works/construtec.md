@@ -1,5 +1,6 @@
 
 [![work1-construtec-opt.png](https://i.postimg.cc/h4NjnCvh/work1-construtec-opt.png)](https://postimg.cc/grqdqHvP)
+
 ### Construtec Perú
 
 Construtec Perú fue una start-up fundada con el obejtivo de desarrollar software para el sector de la Construcción. 
