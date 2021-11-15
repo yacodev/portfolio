@@ -1,11 +1,17 @@
-![3 Things To Know About Startup Business](/images/blog/3-3.jpg)
+![Plataforma de capacitación](/images/works/work3_capacitation_opt.png)
 
-### 3 Things To Know About Startup Business
+### Plataforma de capacitación para las ATMs
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora deleniti repellendus doloribus necessitatibus ullam accusantium iste natus assumenda nisi ut eius commodi quis tenetur fugit magni at, tempore cumque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum consequatur earum debitis mollitia repellat porro dolorum magni neque, consectetur et nam fugiat ipsa, quibusdam accusamus aperiam asperiores quia inventore numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis reprehenderit cum quos quia necessitatibus ipsa mollitia error nemo dicta, possimus nobis tempora quod voluptate nostrum ducimus nulla aperiam, explicabo pariatur.
 
-> Inventore tempora deleniti repellendus doloribus necessitatibus ullam accusantium iste natus assumenda nisi ut eius commodi quis tenetur fugit consequatur earum debitis mollitia repellat.
+#### Trabajos Realizdos:
+  -  Desarrollo del Front-end de la plataforma de capacitación empleando **React**.
+  -  Liderar a un equipo de 5 ingenieros durante el proceso de desarrollo de la plataforma. Puedes ver la plataforma <a href="http://lacasadelatm.com" target="_blank"> Aquí</a>.
+  -  Brindar capacitación al personal del Dirección Regional de Vivienda Construcción y saneamiento - Cusco para el uso de la plataforma.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora deleniti repellendus doloribus necessitatibus ullam accusantium iste natus assumenda nisi ut eius commodi quis tenetur fugit magni at, tempore cumque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum consequatur earum debitis mollitia repellat.
+#### Ejecución:
+-  2021.
 
-Inventore tempora deleniti repellendus doloribus necessitatibus ullam accusantium iste natus assumenda nisi ut eius commodi quis tenetur fugit consequatur earum debitis mollitia repellat.
+#### Logros:
+
+> -  Lograr el deasrrollo de la plataforma totalmente funcional en un plazo de 4 meses. 
+> -  Implementar el sistema en la dirección Regional de Vivienda Construcción y Saneamiento - Cusco.

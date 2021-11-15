@@ -8,7 +8,6 @@ function Work({ workData }) {
     let tempArr = filesource.split("/");
     let fileName = tempArr[tempArr.length - 1];
     let getName = fileName.slice(0, -3);
-    console.log("Este es el nombre:",getName)
     return getName ;
   };
   return (

@@ -1,11 +1,20 @@
-![Common Misconceptions About Payment](/images/blog/2-2.jpg)
+![Plataforma de Seguimiento de ejecucion de proyectos](/images/works/work2_spip_opt.png)
 
-### Common Misconceptions About Payment
+### Plataforma para el Seguimiento de la Ejecución de Proyectos de Inversión Pública.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora deleniti repellendus doloribus necessitatibus ullam accusantium iste natus assumenda nisi ut eius commodi quis tenetur fugit magni at, tempore cumque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum consequatur earum debitis mollitia repellat porro dolorum magni neque, consectetur et nam fugiat ipsa, quibusdam accusamus aperiam asperiores quia inventore numquam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis reprehenderit cum quos quia necessitatibus ipsa mollitia error nemo dicta, possimus nobis tempora quod voluptate nostrum ducimus nulla aperiam, explicabo pariatur.
+Trabaje para la empresa  <a href="https://smartcitiesperu.com/" target="_blank"> Smart Cities Perú</a>, empresa de desarrollo de Software.
 
-> Inventore tempora deleniti repellendus doloribus necessitatibus ullam accusantium iste natus assumenda nisi ut eius commodi quis tenetur fugit consequatur earum debitis mollitia repellat.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempora deleniti repellendus doloribus necessitatibus ullam accusantium iste natus assumenda nisi ut eius commodi quis tenetur fugit magni at, tempore cumque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum consequatur earum debitis mollitia repellat.
+#### Trabajos Realizdos:
+  -  Liderar a un equipo de ingenieros durante el proceso de desarrollo de la plataforma de Seguimiento a la ejecución de Proyectos de Inversión Pública. Puedes ver un video descriptivo de la plataforma <a href="https://www.youtube.com/watch?v=xdCUPjmV7dY" target="_blank"> Aquí</a>.
+  -  Brindar capacitación en las instituciones y a los ingenieros que adquirieron el software.
 
-Inventore tempora deleniti repellendus doloribus necessitatibus ullam accusantium iste natus assumenda nisi ut eius commodi quis tenetur fugit consequatur earum debitis mollitia repellat.
+#### Ejecución:
+-  2019.
+
+#### Logros:
+
+> -  Lograr el deasrrollo de la plataforma totalmente funcional en un plazo de 2 meses. 
+> -  Implementar el sistema en el Gobierno Regional del Cusco.
+
+
