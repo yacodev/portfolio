@@ -1,4 +1,4 @@
-![Plataforma de capacitación](/images/works/work3_capacitation_opt.png)
+![Plataforma de capacitación](/portfolio/images/works/work3_capacitation_opt.png)
 
 ### Plataforma de capacitación para las ATMs
 
