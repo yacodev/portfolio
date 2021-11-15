@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6efaaf26.chunk.css",
-    "main.js": "/portfolio/static/js/main.1b72580f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1b72580f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.67e40bc6.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.67e40bc6.js.map",
+    "main.js": "/portfolio/static/js/main.5e5d18ad.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5e5d18ad.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8d0a1538.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8d0a1538.js.map",
     "static/css/2.e5680501.chunk.css": "/portfolio/static/css/2.e5680501.chunk.css",
     "static/js/2.79be0d09.chunk.js": "/portfolio/static/js/2.79be0d09.chunk.js",
     "static/js/2.79be0d09.chunk.js.map": "/portfolio/static/js/2.79be0d09.chunk.js.map",
@@ -20,8 +20,8 @@
     "static/js/7.7d3603e3.chunk.js.map": "/portfolio/static/js/7.7d3603e3.chunk.js.map",
     "static/js/8.046ec349.chunk.js": "/portfolio/static/js/8.046ec349.chunk.js",
     "static/js/8.046ec349.chunk.js.map": "/portfolio/static/js/8.046ec349.chunk.js.map",
-    "static/js/9.7589cb51.chunk.js": "/portfolio/static/js/9.7589cb51.chunk.js",
-    "static/js/9.7589cb51.chunk.js.map": "/portfolio/static/js/9.7589cb51.chunk.js.map",
+    "static/js/9.566297ef.chunk.js": "/portfolio/static/js/9.566297ef.chunk.js",
+    "static/js/9.566297ef.chunk.js.map": "/portfolio/static/js/9.566297ef.chunk.js.map",
     "static/js/10.03a72f2e.chunk.js": "/portfolio/static/js/10.03a72f2e.chunk.js",
     "static/js/10.03a72f2e.chunk.js.map": "/portfolio/static/js/10.03a72f2e.chunk.js.map",
     "index.html": "/portfolio/index.html",
@@ -35,17 +35,17 @@
     "static/media/blog-netflix.md": "/portfolio/static/media/blog-netflix.3b29b15e.md",
     "static/media/blog-silicon-valley.md": "/portfolio/static/media/blog-silicon-valley.ee9c1124.md",
     "static/media/capacitation.md": "/portfolio/static/media/capacitation.e61a2a82.md",
-    "static/media/construtec.md": "/portfolio/static/media/construtec.888add42.md",
+    "static/media/construtec.md": "/portfolio/static/media/construtec.390d645d.md",
     "static/media/App.scss": "/portfolio/static/media/map.0d7639e8.svg",
     "static/media/project-water.md": "/portfolio/static/media/project-water.3da6a528.md",
     "static/media/slick-theme.css": "/portfolio/static/media/slick.c94f7671.ttf",
     "static/media/spip.md": "/portfolio/static/media/spip.032abc97.md"
   },
   "entrypoints": [
-    "static/js/runtime-main.67e40bc6.js",
+    "static/js/runtime-main.8d0a1538.js",
     "static/css/2.e5680501.chunk.css",
     "static/js/2.79be0d09.chunk.js",
     "static/css/main.6efaaf26.chunk.css",
-    "static/js/main.1b72580f.chunk.js"
+    "static/js/main.5e5d18ad.chunk.js"
   ]
 }
