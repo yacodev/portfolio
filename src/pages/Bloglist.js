@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Header from "../components/layouts/Header";
+import HeaderBlog from "../components/layouts/HeaderBlog";
 import Blog from "../components/elements/Blog";
 import Pagination from "../components/elements/Pagination";
 
@@ -87,7 +87,7 @@ function Bloglist() {
 
   return (
     <>
-      <Header/>
+      <HeaderBlog />
       <main className={toggleMenu ? "content open" : "content"}>
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section">
