@@ -1,5 +1,4 @@
-
-[![work1-construtec-opt.png](https://i.postimg.cc/h4NjnCvh/work1-construtec-opt.png)](https://postimg.cc/grqdqHvP)
+![Construtec](/portfolio/images/works/work1_construtec_opt.png)
 
 ### Construtec Perú
 

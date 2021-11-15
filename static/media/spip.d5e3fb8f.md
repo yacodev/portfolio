@@ -1,4 +1,4 @@
-![Plataforma de Seguimiento de ejecucion de proyectos](/images/works/work2_spip_opt.png)
+![Plataforma de Seguimiento de ejecucion de proyectos](/portfolio/images/works/work2_spip_opt.png)
 
 ### Plataforma para el Seguimiento de la Ejecución de Proyectos de Inversión Pública.
 

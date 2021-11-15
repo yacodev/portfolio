@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[7],{71:function(t,o,p){"use strict";p.r(o),o.default=p.p+"static/media/project-water.44afe438.md"}}]);
+//# sourceMappingURL=7.a44ce660.chunk.js.map

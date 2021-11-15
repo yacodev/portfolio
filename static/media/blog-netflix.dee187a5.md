@@ -1,4 +1,4 @@
-![Eso nunca Funcionará - El nacimiento de Netflix](/images/blog/blog_netflix_opt.png)
+![Eso nunca Funcionará - El nacimiento de Netflix](/portfolio/images/blog/blog_netflix_opt.png)
 
 ### Eso nunca Funcionará - El nacimiento de Netflix.
 
