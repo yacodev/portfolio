@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[5],{69:function(t,o,i){"use strict";i.r(o),o.default=i.p+"static/media/blog-netflix.dee187a5.md"}}]);
+//# sourceMappingURL=5.8f5adf05.chunk.js.map

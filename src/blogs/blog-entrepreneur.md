@@ -1,4 +1,4 @@
-![El libro negro del emprendedor](/images/blog/blog_entrepreneur_opt.png)
+![El libro negro del emprendedor](/portfolio/images/blog/blog_entrepreneur_opt.png)
 
 ### El libro negro del emprendedor
 

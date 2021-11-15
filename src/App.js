@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/portfolio/" exact>
+        <Route path="/portfolio" exact>
           <Homepage />
         </Route>
         <Route path="/portfolio/blogs" component={Bloglist} exact />

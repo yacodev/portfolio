@@ -22,14 +22,14 @@ function Work({ workData }) {
           <a href="!#">
             <span className="category">{category}</span>
           </a>
-          <Link to={`/works/work-details/${id}/${getNospaceTitle(filesource)}`}>
+          <Link to={`/portfolio/works/work-details/${id}/${getNospaceTitle(filesource)}`}>
             <img src={image} alt="blog-title" />
           </Link>
         </div>
         <div className="details" >
           <h4 className="my-0 title">
             <Link
-              to={`/works/work-details/${id}/${getNospaceTitle(filesource)}`}
+              to={`/portfolio/works/work-details/${id}/${getNospaceTitle(filesource)}`}
             >
               {title}
             </Link>

@@ -1,4 +1,4 @@
-![Telemetria aplicada al monitoreo](/images/blog/blog_water_opt.png)
+![Telemetria aplicada al monitoreo](/portfolio/images/blog/blog_water_opt.png)
 
 ### Sistema de telemetria aplicada al monitoreo de la cantidad de solucion madre en sistemas de abastecimiento rural de agua
 
