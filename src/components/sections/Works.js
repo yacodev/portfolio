@@ -33,7 +33,7 @@ function Works() {
   return (
     <section id="blog">
       <div className="container">
-        <Pagetitle title="Proyectos" />
+        <Pagetitle title="Trabajos" />
         <div className="row blog-wrapper">
           {allWorks.map((workItem) => (
             <div className="col-md-4" key={workItem.id}>

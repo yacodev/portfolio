@@ -12,7 +12,7 @@ import Herosection from "../components/sections/Herosection";
 import Services from "../components/sections/Services";
 import Works from "../components/sections/Works";
 
-function Homepage3() {
+function Homepage() {
   return (
     <>
       <Header />
@@ -50,4 +50,4 @@ function Homepage3() {
   );
 }
 
-export default Homepage3;
+export default Homepage;

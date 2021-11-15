@@ -6,30 +6,30 @@ import Pagetitle from "../elements/Pagetitle";
 const allBlogs = [
   {
     id: 1,
-    title: "Sistema de telemetría aplicada al monitoreo de la cantiad de solución madre en sistemas de abastecimiento rural de agua",
+    title: "Sistema de telemetría aplicada al monitoreo de solución madre.",
     image: "images/blog/blog_water.png",
     filesource: "../../blogs/project-water.md",
     date: "Noviembre, 2021",
-    author: "Carlos Yaco",
-    category: "Project",
+    author: "Carlos Yaco - Juan Vizcardo - Bengie Serrano",
+    category: "Implementación",
   },
   {
     id: 2,
-    title: "Eso nunca Funcionará (el nacimiento de Netflix)",
+    title: "Eso nunca Funcionará (el nacimiento de Netflix).",
     image: "images/blog/blog_netflix.png",
     filesource: "../../blogs/blog-netflix.md",
     date: "Octubre, 2021",
     author: "Carlos Yaco",
-    category: "Book",
+    category: "Resumen",
   },
   {
     id: 3,
-    title: "Four - el ADN secreto de Amazon, Apple, Facebook y Google",
-    image: "images/blog/blog_four_opt.png",
+    title: "Four - el ADN secreto de Amazon, Apple, Facebook y Google.",
+    image: "images/blog/blog_four.png",
     filesource: "../../blogs/blog-four.md",
     date: "Octubre, 2021",
     author: "Carlos Yaco",
-    category: "Book",
+    category: "Resumen",
   }
 ];
 

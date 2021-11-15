@@ -1,7 +1,4 @@
-import React from "react";
-import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
-import TrackVisibility from "react-on-screen";
 
 const aboutContent = {
   name: "Carlos",

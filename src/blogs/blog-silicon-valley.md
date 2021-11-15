@@ -1,4 +1,4 @@
-![Common Misconceptions About Payment](/images/blog/blog_silicon_valley.png)
+![El Millonario de Silicon Valley](/images/blog/blog_silicon_valley_opt.png)
 
 ### El Millonario de Silicon Valley
 

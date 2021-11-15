@@ -1,4 +1,4 @@
-![Common Misconceptions About Payment](/images/blog/blog_entrepreneur.png)
+![El libro negro del emprendedor](/images/blog/blog_entrepreneur_opt.png)
 
 ### El libro negro del emprendedor
 

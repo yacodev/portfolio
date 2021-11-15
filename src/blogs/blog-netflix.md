@@ -1,4 +1,4 @@
-![Common Misconceptions About Payment](/images/blog/blog_netflix.png)
+![Eso nunca Funcionará - El nacimiento de Netflix](/images/blog/blog_netflix_opt.png)
 
 ### Eso nunca Funcionará - El nacimiento de Netflix.
 
