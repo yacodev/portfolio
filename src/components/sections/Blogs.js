@@ -47,7 +47,7 @@ function Blogs() {
         </div>
         <div className="text-center">
           <div className="spacer" data-height="30"></div>
-          <Link to="/blogs" className="btn btn-default">
+          <Link to="/portfolio/blogs" className="btn btn-default">
             Ver más
           </Link>
         </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
-import Header from "../components/layouts/Header";
+import HeaderBlog from "../components/layouts/HeaderBlog";
 
 function WordDetails(props) {
   const [content, setContent] = useState("");
@@ -34,7 +34,7 @@ function WordDetails(props) {
 
   return (
     <>
-      <Header
+      <HeaderBlog
         logoSource="/images/logo.svg"
         toggleMenu={toggleMenu}
         headerToggler={headerToggler}

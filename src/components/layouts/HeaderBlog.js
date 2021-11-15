@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
 import styled from "@emotion/styled";
-
+import { Link } from "react-router-dom";
 
 const ContainerHeader = styled.div`
   display:flex;
@@ -9,7 +8,7 @@ const ContainerHeader = styled.div`
 `
 
 
-function Header({ light }) {
+function HeaderBlog({ light }) {
   const [toggleNavbar, setToggleNavbar] = useState(false);
 
   const handleMobilenav = (e) => {
@@ -59,10 +58,7 @@ function Header({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="/#section-home"
-                  spy={true}
-                  smooth={true}
-                  duration={300}
+                  to="/portfolio"
                 >
                   Home
                 </Link>
@@ -71,10 +67,7 @@ function Header({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="section-about"
-                  spy={true}
-                  smooth={true}
-                  duration={300}
+                  to="/portfolio"
                 >
                   Acerca
                 </Link>
@@ -83,10 +76,7 @@ function Header({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="section-experiences"
-                  spy={true}
-                  smooth={true}
-                  duration={300}
+                  to="/portfolio"
                 >
                   Experiencia
                 </Link>
@@ -95,10 +85,7 @@ function Header({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="section-works"
-                  spy={true}
-                  smooth={true}
-                  duration={300}
+                  to="/portfolio"
                 >
                   Proyectos
                 </Link>
@@ -107,10 +94,7 @@ function Header({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="section-blogs"
-                  spy={true}
-                  smooth={true}
-                  duration={300}
+                  to="/portfolio"
                 >
                   Blog
                 </Link>
@@ -119,10 +103,7 @@ function Header({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="section-contact"
-                  spy={true}
-                  smooth={true}
-                  duration={300}
+                  to="/portfolio"
                 >
                   Contacto
                 </Link>
@@ -135,4 +116,4 @@ function Header({ light }) {
   );
 }
 
-export default Header;
+export default HeaderBlog;
