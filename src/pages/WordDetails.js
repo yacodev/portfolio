@@ -35,9 +35,6 @@ function WordDetails(props) {
   return (
     <>
       <HeaderBlog
-        logoSource="/images/logo.svg"
-        toggleMenu={toggleMenu}
-        headerToggler={headerToggler}
       />
       <main className={toggleMenu ? "content open" : "content"}>
         <div className="spacer" data-height="96"></div>

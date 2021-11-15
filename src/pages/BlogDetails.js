@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
-import Header from "../components/layouts/Header";
+import HeaderBlog from "../components/layouts/HeaderBlog";
 
 function BlogDetails(props) {
   const [content, setContent] = useState("");
@@ -34,7 +34,7 @@ function BlogDetails(props) {
 
   return (
     <>
-      <Header />
+      <HeaderBlog />
       <main className={toggleMenu ? "content open" : "content"}>
         <div className="spacer" data-height="96"></div>
         <div className="blog-page-section">
