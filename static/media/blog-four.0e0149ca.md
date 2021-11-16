@@ -1,4 +1,4 @@
-![Four - el ADN secreto de Amazon, Apple, Facebook y Google](/portfolio/images/blog/blog_four_opt.png)
+![Four - el ADN secreto de Amazon, Apple, Facebook y Google](/images/blog/blog_four_opt.png)
 
 ### Four - el ADN secreto de Amazon, Apple, Facebook y Google
 
