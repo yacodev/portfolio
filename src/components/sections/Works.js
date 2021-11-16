@@ -37,7 +37,7 @@ function Works() {
         <Pagetitle title="Trabajos" />
         <div className="row blog-wrapper">
           {allWorks.map((workItem) => (
-            <div className="col-md-4" key={workItem.id}>
+            <div className="col-md-4" key={workItem.id} style={{marginTop:"15px"}}>
               <Work workData={workItem} />
             </div>
           ))}

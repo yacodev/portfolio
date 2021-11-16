@@ -40,7 +40,7 @@ function Blogs() {
         <Pagetitle title="Ultimos blogs" />
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
-            <div className="col-md-4" key={blogItem.id}>
+            <div className="col-md-4" key={blogItem.id} style={{marginTop:"15px"}}>
               <Blog blogData={blogItem} />
             </div>
           ))}

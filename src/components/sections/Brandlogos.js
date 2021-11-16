@@ -54,10 +54,10 @@ function Brandlogos() {
       <Pagetitle title="Conocimientos" />
         <div className="row">
           {brandlogoData.map((brandlogo) => (
-            <div className="col-md-1 col-6" key={brandlogo.id}>
-              <div className="client-item">
-                <div className="inner">
-                  <img src={brandlogo.image} alt="skill-name"/>
+            <div className="col-md-1 col-4" key={brandlogo.id} style={{marginBottom: "20px"}}>
+              <div className="client-item" >
+                <div className="inner" style={{display:"flex", justifyContent:"center", width:"100%"}}>
+                  <img src={brandlogo.image} alt="skill-name" style={{width: "60px", height:"60px"}}/>
                 </div>
               </div>
             </div>
