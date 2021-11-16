@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Markdown from "markdown-to-jsx";
 import HeaderBlog from "../components/layouts/HeaderBlog";
 
@@ -17,11 +17,6 @@ function BlogDetails(props) {
   }, [content, blogFile]);
 
   const [toggleMenu, setToggleMenu] = useState(false);
-
-  const headerToggler = (e) => {
-    e.preventDefault();
-    setToggleMenu(!toggleMenu);
-  };
 
   document.addEventListener("click", function (e) {
     if (e.target.closest(".content")) {

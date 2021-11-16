@@ -56,7 +56,7 @@ function HeaderBlog({ light }) {
             <ul className="navbar-nav ml-auto scrollspy">
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="/"
                 >
@@ -65,7 +65,7 @@ function HeaderBlog({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="/"
                 >
@@ -74,7 +74,7 @@ function HeaderBlog({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="/"
                 >
@@ -83,7 +83,7 @@ function HeaderBlog({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="/"
                 >
@@ -92,7 +92,7 @@ function HeaderBlog({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="/"
                 >
@@ -101,7 +101,7 @@ function HeaderBlog({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="/"
                 >

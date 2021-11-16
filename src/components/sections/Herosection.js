@@ -1,4 +1,3 @@
-import React from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
 import iconUser from "../../images/avatar_carlos_opt.png"
@@ -11,7 +10,6 @@ const ContainerAvatar = styled.div`
     width:150px;
   }
 `
-
 
 function Herosection(props) {
   const { x, y } = props.position;

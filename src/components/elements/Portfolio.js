@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import FsLightbox from "fslightbox-react";
 
 function Portfolio({ portfolio }) {

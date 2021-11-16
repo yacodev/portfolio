@@ -1,4 +1,3 @@
-import React from "react";
 
 function Service({ service }) {
   const { title, content, icon, color, contentColor } = service;

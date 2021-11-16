@@ -1,4 +1,3 @@
-import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 const brandlogoData = [
   {

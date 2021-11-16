@@ -1,4 +1,3 @@
-import React from "react";
 import Work from "../elements/Work";
 import Pagetitle from "../elements/Pagetitle";
 

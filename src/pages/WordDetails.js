@@ -18,11 +18,6 @@ function WordDetails(props) {
 
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  const headerToggler = (e) => {
-    e.preventDefault();
-    setToggleMenu(!toggleMenu);
-  };
-
   document.addEventListener("click", function (e) {
     if (e.target.closest(".content")) {
       setToggleMenu(false);

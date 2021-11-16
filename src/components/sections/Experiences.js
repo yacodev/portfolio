@@ -1,4 +1,3 @@
-import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 import Timeline from "../elements/Timeline";
 
@@ -42,7 +41,7 @@ const experienceData = [
       "Construtec Perú es una start-up de desarrollo de software para el sector de la construcción. Nosotros desarrollamos el CPIP (Control de Proyectos de Inversión Pública).",
   },
   {
-    id: 2,
+    id: 3,
     title: "Product Owner",
     years: "Octubre 2019 – Diciembre 2019",
     content:

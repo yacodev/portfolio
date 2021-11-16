@@ -57,7 +57,7 @@ function Header({ light }) {
             <ul className="navbar-nav ml-auto scrollspy">
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="/#section-home"
                   spy={true}
@@ -69,7 +69,7 @@ function Header({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="section-about"
                   spy={true}
@@ -81,7 +81,7 @@ function Header({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="section-experiences"
                   spy={true}
@@ -93,7 +93,7 @@ function Header({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="section-works"
                   spy={true}
@@ -105,7 +105,7 @@ function Header({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="section-blogs"
                   spy={true}
@@ -117,7 +117,7 @@ function Header({ light }) {
               </li>
               <li className="nav-item">
                 <Link
-                  activeClass="active"
+                  activeclass="active"
                   className="nav-link"
                   to="section-contact"
                   spy={true}
