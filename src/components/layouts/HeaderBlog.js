@@ -58,7 +58,7 @@ function HeaderBlog({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="/portfolio/"
+                  to="/"
                 >
                   Home
                 </Link>
@@ -67,7 +67,7 @@ function HeaderBlog({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="/portfolio/"
+                  to="/"
                 >
                   Acerca
                 </Link>
@@ -76,7 +76,7 @@ function HeaderBlog({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="/portfolio/"
+                  to="/"
                 >
                   Experiencia
                 </Link>
@@ -85,7 +85,7 @@ function HeaderBlog({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="/portfolio/"
+                  to="/"
                 >
                   Proyectos
                 </Link>
@@ -94,7 +94,7 @@ function HeaderBlog({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="/portfolio/"
+                  to="/"
                 >
                   Blog
                 </Link>
@@ -103,7 +103,7 @@ function HeaderBlog({ light }) {
                 <Link
                   activeClass="active"
                   className="nav-link"
-                  to="/portfolio/"
+                  to="/"
                 >
                   Contacto
                 </Link>

@@ -29,8 +29,15 @@ const educationData = [
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer and Product Owner",
-    years: "Enero 2020 – Diciembre 2020",
+    title: "Desarrollador Front-end ",
+    years: "Agosto 2020 – Diciembre 2020",
+    content:
+      "Dirección Regional de Vivienda Construcción y Saneamiento",
+  },
+  {
+    id: 2,
+    title: "CEO - Desarrollador web",
+    years: "Julio 2019 – Julio 2020",
     content:
       "Construtec Perú es una start-up de desarrollo de software para el sector de la construcción. Nosotros desarrollamos el CPIP (Control de Proyectos de Inversión Pública).",
   },
@@ -41,13 +48,7 @@ const experienceData = [
     content:
       "Smart Cities Peru es una compañia de desarrollo de software.",
   },
-  {
-    id: 3,
-    title: "Ingeniero de Proyectos",
-    years: "Enero 2019 – Setiembre 2019",
-    content:
-      "Gobierno Regional del Cusco - Perú",
-  },
+  
 ];
 
 function Experiences() {

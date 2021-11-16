@@ -1,4 +1,4 @@
-![El Millonario de Silicon Valley](/portfolio/images/blog/blog_silicon_valley_opt.png)
+![El Millonario de Silicon Valley](/images/blog/blog_silicon_valley_opt.png)
 
 ### El Millonario de Silicon Valley
 
