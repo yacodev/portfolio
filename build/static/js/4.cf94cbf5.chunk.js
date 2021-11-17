@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[4],{69:function(o,t,i){"use strict";i.r(t),t.default=i.p+"static/media/blog-four.0e0149ca.md"}}]);
+//# sourceMappingURL=4.cf94cbf5.chunk.js.map

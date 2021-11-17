@@ -1,2 +1,0 @@
-(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[6],{70:function(o,i,t){"use strict";t.r(i),i.default=t.p+"static/media/blog-silicon-valley.ee9c1124.md"}}]);
-//# sourceMappingURL=6.c86a8ec9.chunk.js.map

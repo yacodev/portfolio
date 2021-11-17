@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
+import { init, send } from "emailjs-com"
 
 function Contact() {
-  const [formdata, setFormdata] = useState({
-    name: "",
-    email: "",
+
+  init("user_B7JHqpbpBbJ0WyS0JjPH2");
+
+  const [toSend, setToSend] = useState({
+    from_name: "",
+    reply_to: "",
     subject: "",
     message: "",
   });
@@ -15,27 +19,40 @@ function Contact() {
 
   const submitHandler = (event) => {
     event.preventDefault();
-    if (!formdata.name) {
+    if (!toSend.from_name) {
       setError(true);
       setMessage("Name is required");
-    } else if (!formdata.email) {
+    } else if (!toSend.reply_to) {
       setError(true);
       setMessage("Email is required");
-    } else if (!formdata.subject) {
+    } else if (!toSend.subject) {
       setError(true);
       setMessage("Subject is required");
-    } else if (!formdata.message) {
+    } else if (!toSend.message) {
       setError(true);
       setMessage("Message is required");
     } else {
+      send(
+        'service_09ynvul',
+        'template_9ofonzf',
+        toSend,
+        'user_B7JHqpbpBbJ0WyS0JjPH2'
+      )
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      })
+      .catch((err) => {
+        console.log('FAILED...', err);
+      });
+
       setError(false);
       setMessage("Tu mensaje ha sido enviado!!!");
     }
   };
 
   const handleChange = (event) => {
-    setFormdata({
-      ...formdata,
+    setToSend({
+      ...toSend,
       [event.currentTarget.name]: event.currentTarget.value,
     });
   };
@@ -90,11 +107,11 @@ function Contact() {
                     <input
                       type="text"
                       className="form-control"
-                      name="name"
+                      name="from_name"
                       id="InputName"
                       placeholder="Nombre"
                       onChange={handleChange}
-                      value={formdata.name}
+                      value={toSend.from_name}
                     />
                   </div>
                 </div>
@@ -105,10 +122,10 @@ function Contact() {
                       type="email"
                       className="form-control"
                       id="InputEmail"
-                      name="email"
+                      name="reply_to"
                       placeholder="Email"
                       onChange={handleChange}
-                      value={formdata.email}
+                      value={toSend.reply_to}
                     />
                   </div>
                 </div>
@@ -122,7 +139,7 @@ function Contact() {
                       name="subject"
                       placeholder="Asunto"
                       onChange={handleChange}
-                      value={formdata.subject}
+                      value={toSend.subject}
                     />
                   </div>
                 </div>
@@ -136,7 +153,7 @@ function Contact() {
                       rows="5"
                       placeholder="Mensage"
                       onChange={handleChange}
-                      value={formdata.message}
+                      value={toSend.message}
                     ></textarea>
                   </div>
                 </div>
