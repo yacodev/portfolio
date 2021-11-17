@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[8],{73:function(t,i,o){"use strict";o.r(i),i.default=o.p+"static/media/capacitation.0fd1db56.md"}}]);
+//# sourceMappingURL=8.c0a9210f.chunk.js.map
