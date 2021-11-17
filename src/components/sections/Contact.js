@@ -53,7 +53,7 @@ function Contact() {
   return (
     <section id="contact">
       <div className="container">
-        <Pagetitle title="Contactame" />
+        <Pagetitle title="Contáctame" />
 
         <div className="row">
           <div className="col-md-4">

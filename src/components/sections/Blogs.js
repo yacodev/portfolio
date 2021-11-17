@@ -5,7 +5,7 @@ import Pagetitle from "../elements/Pagetitle";
 const allBlogs = [
   {
     id: 1,
-    title: "Sistema de telemetría aplicada al monitoreo de solución madre.",
+    title: "¿Cómo mejorar el acceso a agua clorada en la zona rural?.",
     image: "images/blog/blog_water.png",
     filesource: "../../blogs/project-water.md",
     date: "Noviembre, 2021",
@@ -36,7 +36,12 @@ function Blogs() {
   return (
     <section id="blog">
       <div className="container">
-        <Pagetitle title="Ultimos blogs" />
+        <Pagetitle title="Últimos blogs" />
+        <p className="mb-0">
+          Uno de mis pasatiempos preferidos es leer, me encanta los temas relacionados a las Startups. En las entradas de
+          este blog encontrarás algunos resumes de los libros que más me gustaron, espero que te sean utiles. 😉
+          Tambien encontrarás algunos de los proyectos en los que colabore.
+        </p>
         <div className="row blog-wrapper">
           {allBlogs.map((blogItem) => (
             <div className="col-md-4" key={blogItem.id} style={{marginTop:"15px"}}>

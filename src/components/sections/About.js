@@ -1,5 +1,5 @@
 import Pagetitle from "../elements/Pagetitle";
-import pdf from "../../resume/Resume_carlos_yaco.pdf"
+import pdf from "../../resume/CV_carlos_yaco.pdf"
 
 const aboutContent = {
   name: "Carlos",
@@ -27,7 +27,7 @@ function About() {
                   <p>{aboutContent.content[2]}</p>
                   <div className="mt-3">
                     <a href={pdf} className="btn btn-default">
-                      Descarga CV
+                      Descargar C.V.
                     </a>
                   </div>
                   <div

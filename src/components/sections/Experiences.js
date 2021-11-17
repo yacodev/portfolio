@@ -7,7 +7,7 @@ const educationData = [
     title: "Desarrollador Full stack",
     years: "2021",
     content:
-      "Programa de Educación intensivo en full-stack web development (Tiempo completo, 6 months) por Codeable (www.codeable.la)	",
+      "Programa de Educación intensivo en Full-stack web development (Tiempo completo, 6 meses) por Codeable (www.codeable.la).",
   },
   {
     id: 2,
@@ -35,10 +35,10 @@ const experienceData = [
   },
   {
     id: 2,
-    title: "CEO - Desarrollador web",
+    title: "Fundador - CEO - Desarrollador web",
     years: "Julio 2019 – Julio 2020",
     content:
-      "Construtec Perú es una start-up de desarrollo de software para el sector de la construcción. Nosotros desarrollamos el CPIP (Control de Proyectos de Inversión Pública).",
+      "Construtec Perú fue una start-up de desarrollo de software para el sector de la construcción. Nosotros desarrollamos el software CPIP (Control de Proyectos de Inversión Pública).",
   },
   {
     id: 3,

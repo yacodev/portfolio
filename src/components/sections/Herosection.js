@@ -87,7 +87,7 @@ function Herosection(props) {
               smooth={true}
               duration={500}
             >
-              Contactame
+              Contáctame
             </Link>
           </div>
         </div>

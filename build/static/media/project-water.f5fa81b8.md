@@ -1,8 +1,9 @@
 ![Telemetria aplicada al monitoreo](/images/blog/blog_water_opt.png)
 
-### Sistema de telemetria aplicada al monitoreo de la cantidad de solucion madre en sistemas de abastecimiento rural de agua
 
-#### Introducción
+### ¿Cómo mejorar el acceso a agua clorada en la zona rural?
+
+
 El acceso al agua clorada es algo que damos por sentado en grandes ciudades y capitales de provincia, sin embargo, en el ámbito rural el escenario es completamente diferente. Si bien a nivel nacional el 74.4% de la población rural tiene acceso al agua, menos del 3% consume agua clorada (ENAPRES, 2018). La situación en la región Cusco es similar, contando con una cobertura de 93.3%, pero sólo el 11% accede al agua clorada. Y esto a pesar de que en la región tenemos alrededor de 5000 sistemas de abastecimiento de agua gestionados mediante las Juntas Administradoras de Servicios de Saneamiento (JASS), casi la mitad de estos sistemas de abastecimiento de agua cuentan con un sistema de cloración (DATASS, 2018).
 
 El método predominante para la cloración de sistemas de abastecimiento de agua a nivel rural es el denominado sistema de goteo, el cual consiste en el vertido de cloro en altas concentraciones almacenado en un tanque de plástico (solución madre) hacia el reservorio principal. 
@@ -11,9 +12,9 @@ La problemática en el consumo de agua clorada se puede resumir en que las JASS 
 
 Adicionalmente, debemos considerar que a nivel regional no se cuenta con medios de verificación remotos que permitan medir la cantidad de solución madre.
 
-En tal sentido, el objetivo de la presente investigación fue la medición continua y remota de la cantidad de solución madre en reservorios rurales.
+En tal sentido, nos planteamos implementar un sistema para la medición continua y remota de la cantidad de solución madre en reservorios rurales para lo cual implementamos:
 
-
+### Sistema de telemetria aplicada al monitoreo de la cantidad de solucion madre en sistemas de abastecimiento rural de agua
 
 #### Materiales y métodos
 La presente proyecto comprende la implementación de un sistema de medición remota de la cantidad de solución madre en reservorios rurales, en adelante denominado “Sistema de telemetría aplicada al monitoreo de la cantidad de solución madre en reservorios rurales”. Para el diseño se consideró el entorno y las condiciones de los sistemas de abastecimiento de agua en zonas rurales de la región Cusco como el tipo el tipo de sistema de cloración empleado y la inexistencia de energía eléctrica.
