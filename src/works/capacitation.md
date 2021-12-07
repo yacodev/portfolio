@@ -6,7 +6,7 @@
 
 #### Trabajos Realizados:
   -  Desarrolle el Front-end de la plataforma de capacitación empleando **React**.
-  -  Lidere a un equipo de 5 ingenieros durante el proceso de desarrollo de la plataforma. Puedes ver la plataforma <a href="http://lacasadelatm.com" target="_blank"> Aquí</a>.
+  -  Tarbaje con un equipo de 5 ingenieros durante el proceso de desarrollo de la plataforma. Puedes ver la plataforma <a href="http://lacasadelatm.com" target="_blank"> Aquí</a>.
   -  Brinde capacitación al personal del Dirección Regional de Vivienda Construcción y saneamiento - Cusco para el uso de la plataforma.
 
 #### Ejecución:

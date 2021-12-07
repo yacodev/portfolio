@@ -15,7 +15,7 @@ const allWorks = [
     title: "Construtec",
     image: "images/works/work1_construtec.png",
     filesource: "../../works/construtec.md",
-    description: "Desarrolle la pagina web de la empresa y dirigí al equipo durante el desarrollo del software CPIP.",
+    description: "Desarrolle la pagina web de la empresa y dirigí al equipo durante el desarrollo del software CPIP (Control de Proyecto de Inversión Pública).",
     category: "Proyecto"
   },
   {

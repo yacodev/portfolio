@@ -7,7 +7,8 @@ Trabaje para la empresa  <a href="https://smartcitiesperu.com/" target="_blank">
 #### Entidad / Empresa: Smart Cities Perú.
 
 #### Trabajos Realizados:
-  -  Lidere a un equipo de ingenieros durante el proceso de desarrollo de la plataforma de Seguimiento a la ejecución de Proyectos de Inversión Pública. Puedes ver un video descriptivo de la plataforma <a href="https://www.youtube.com/watch?v=xdCUPjmV7dY" target="_blank"> Aquí</a>.
+  -  Desarrolle el Back-end de la plataforma usando **Nodejs** con **Express y MongoDB** .
+  -  Trabaje con un equipo de ingenieros durante el proceso de desarrollo de la plataforma de Seguimiento a la ejecución de Proyectos de Inversión Pública. Puedes ver un video descriptivo de la plataforma <a href="https://www.youtube.com/watch?v=xdCUPjmV7dY" target="_blank"> Aquí</a>.
   -  Brinde capacitación en las instituciones y a los ingenieros que adquirieron el software.
 
 #### Ejecución:
