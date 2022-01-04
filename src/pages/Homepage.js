@@ -5,7 +5,7 @@ import Header from "../components/layouts/Header";
 import Footer from "../components/layouts/Footer";
 import About from "../components/sections/About";
 import Blogs from "../components/sections/Blogs";
-import Brandlogos from "../components/sections/Brandlogos";
+import Skills from "../components/sections/Skills";
 import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
@@ -25,8 +25,8 @@ function Homepage() {
         <Element name="section-about">
           <About />
         </Element>
-        <Element name="section-brandlogos">
-          <Brandlogos />
+        <Element name="section-skills">
+          <Skills />
         </Element>
         <Element name="section-services">
           <Services />
