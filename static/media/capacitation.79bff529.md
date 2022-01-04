@@ -14,5 +14,4 @@
 
 #### Logros:
 
-> -  Lograr el deasrrollo de la plataforma totalmente funcional en un plazo de 4 meses. 
-> -  Implementar el sistema en toda la región del Cusco - Perú.
+> -  Implementar el sistema en toda la región del Cusco - Perú, en más de 100 distritos de la región Cusco 

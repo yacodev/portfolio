@@ -17,6 +17,5 @@ Construtec Perú fue fue una start-up fundada con el objetivo de desarrollar sof
 
 #### Logros:
 
-> -  Lograr el deasrrollo del software totalmente funcional en un plazo de 6 meses. 
-> -  Lograr ventas a más de 250 ingenieros que adquirieron el software.
+> -  Lograr más de 250 ingenieros que adquirieron el software.
 
