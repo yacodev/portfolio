@@ -87,7 +87,7 @@ function HeaderBlog({ light }) {
                   className="nav-link"
                   to="/"
                 >
-                  Proyectos
+                  Educación
                 </Link>
               </li>
               <li className="nav-item">

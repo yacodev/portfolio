@@ -23,10 +23,10 @@ function About() {
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-12">
-                  <p>{aboutContent.content[0]}</p>
-                  <p>{aboutContent.content[1]}</p>
-                  <p>{aboutContent.content[2]}</p>
-                  <p>{aboutContent.content[3]}</p>
+                  <p> <strong> Soy desarrollador full-Stack 👨🏻‍💻,</strong>  creo que la tecnología es una herramienta para resolver problemas, entregar valor y hacer más eficientes los procesos.</p>
+                  <p> <strong> Tengo dos años de experiencia </strong> trabajando con equipos y desarrollando software para el sector de la Construcción. </p>
+                  <p>Tuve la oportunidad de <strong> fundar una startup,</strong> lo arruinamos 😢, pero aun si fue una  de las mejores  experiencias de mi vida😁.</p>
+                  <p>Disfruto leyendo libros 📚 sobre startups, emprendimiento y un poco de ciencia ficción. Me gusta trabajar en ideas innovadores, colaborar con el equipo poniendo mi granito de arrena y <strong> tener una gran aventura.</strong></p>
                   <div className="mt-3">
                     <a href={pdf} className="btn btn-default">
                       Descargar C.V.

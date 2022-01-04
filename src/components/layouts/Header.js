@@ -95,12 +95,12 @@ function Header({ light }) {
                 <Link
                   activeclass="active"
                   className="nav-link"
-                  to="section-works"
+                  to="section-educations"
                   spy={true}
                   smooth={true}
                   duration={300}
                 >
-                  Proyectos
+                  Educación
                 </Link>
               </li>
               <li className="nav-item">

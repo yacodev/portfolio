@@ -45,7 +45,7 @@ function Herosection(props) {
                 "Desarrollador Back-end",
                 "Desarrollador Back-end",
                 "Desarrollador Front-end",
-                "Ingeniero Electrónico",
+                "Desarrollador Full-stack",
               ]}
               typeSpeed={100}
               backSpeed={40}

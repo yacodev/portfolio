@@ -39,7 +39,7 @@ function Blogs() {
         <Pagetitle title="Últimos blogs" />
         <p className="mb-0">
           Uno de mis pasatiempos preferidos es leer, me encanta los temas relacionados a las Startups. En las entradas de
-          este blog encontrarás algunos resumes de los libros que más me gustaron, espero que te sean utiles. 😉
+          este blog encontrarás algunos resumes de los libros, espero que te sean utiles😉. 
           Tambien encontrarás algunos de los proyectos en los que colabore.
         </p>
         <div className="row blog-wrapper">

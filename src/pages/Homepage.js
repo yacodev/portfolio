@@ -9,8 +9,8 @@ import Skills from "../components/sections/Skills";
 import Contact from "../components/sections/Contact";
 import Experiences from "../components/sections/Experiences";
 import Herosection from "../components/sections/Herosection";
-import Services from "../components/sections/Services";
 import Works from "../components/sections/Works";
+import Educations from "../components/sections/Educations";
 
 function Homepage() {
   return (
@@ -28,14 +28,14 @@ function Homepage() {
         <Element name="section-skills">
           <Skills />
         </Element>
-        <Element name="section-services">
-          <Services />
-        </Element>
         <Element name="section-experiences">
           <Experiences />
         </Element>
         <Element name="section-works">
           <Works />
+        </Element>
+        <Element name="section-educations">
+          <Educations />
         </Element>
         <Element name="section-blogs">
           <Blogs />

@@ -100,7 +100,7 @@ function Skills() {
           </div>
         </div>
         <div className="mt-3">
-          <p>Aprendiendo:</p>
+          <p>Aprendiendo(me gusta siempre estar aprendiendo nuevas tecnologias 😉):</p>
           <div className="rounded bg-white shadow-dark p-3">
             {renderSkills(skillsProcess)}
           </div>

@@ -16,7 +16,6 @@ Trabaje para la empresa  <a href="https://smartcitiesperu.com/" target="_blank">
 
 #### Logros:
 
-> -  Lograr el deasrrollo de la plataforma totalmente funcional en un plazo de 2 meses. 
 > -  Implementar el sistema en el Gobierno Regional del Cusco.
 
 
