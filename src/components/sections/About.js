@@ -1,16 +1,6 @@
 import Pagetitle from "../elements/Pagetitle";
 import pdf from "../../resume/CV_carlos_yaco.pdf"
 
-const aboutContent = {
-  name: "Carlos",
-  avatarImage: "/images/avatar-2.svg",
-  content:[
-    `Soy desarrollador full-Stack, creo que la tecnología es una herramienta para resolver problemas y mejorar la vida de los demás. Tengo dos años de experiencia trabajando con equipos para desarrollar software en el sector de la Construcción.`,
-    `Tambien tuve la oportunidad de fundar mi start-up (Construtec), fue una gran experiencia.`,
-    `Antes trabaja como Ingeniero de Proyectos en el sector de la Construcción, trabaje construyendo pistas, escuelas y hospitales, pero siempre quise aprender a programar para comenzar a desarrollar soluciones basadas en software, por eso comencé a estudiar en Platzi y me inscribí en el Bootcamp de Codeable, fue una de las mejores decisiones de mi vida.`,
-    `Disfruto leyendo libros sobre empresas de tecnología y todo lo relacionado con el emprendimiento. Espero poder colaborar y vivir esta gran aventura.`]
-};
-
 
 function About() {
   return (

@@ -58,22 +58,22 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="https://github.com/yacodev" target="_blank">
+              <a href="https://github.com/yacodev" target="_blank" rel="noreferrer">
                 <i className="fab fa-github"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.linkedin.com/in/carlos-yaco-tincusi/" target="_blank">
+              <a href="https://www.linkedin.com/in/carlos-yaco-tincusi/" target="_blank" rel="noreferrer">
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://twitter.com/yacodev" target="_blank">
+              <a href="https://twitter.com/yacodev" target="_blank" rel="noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://t.me/carlosyaco" target="_blank">
+              <a href="https://t.me/carlosyaco" target="_blank" rel="noreferrer">
                 <i className="fab fa-telegram"></i>
               </a>
             </li>
