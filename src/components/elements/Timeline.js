@@ -1,7 +1,9 @@
 import ScrollAnimation from "react-animate-on-scroll";
 
 function Timeline({ education }) {
-  const { years, title, content } = education;
+  const { years, title, content, description } = education;
+  const showDescription = description?.length;
+
   return (
     <ScrollAnimation
       animateIn="fadeInUp"
@@ -13,6 +15,9 @@ function Timeline({ education }) {
           <h3 className="title">{title}</h3>
           <span className="time">{years}</span>
           <p>{content}</p>
+          <ul>
+            {showDescription && description.map((item) => <li>{item}</li>)}
+          </ul>
         </div>
       </div>
     </ScrollAnimation>

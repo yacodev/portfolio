@@ -1,15 +1,14 @@
 import Typed from "react-typed";
 import { Link } from "react-scroll";
-import iconUser from "../../images/avatar_carlos_opt.png"
+import iconUser from "../../images/avatar_carlos_opt.png";
 import styled from "@emotion/styled";
 
 const ContainerAvatar = styled.div`
-  
-  img{
-    height:150px;
-    width:150px;
+  img {
+    height: 150px;
+    width: 150px;
   }
-`
+`;
 
 function Herosection(props) {
   const { x, y } = props.position;
@@ -42,10 +41,9 @@ function Herosection(props) {
             {" "}
             <Typed
               strings={[
-                "Desarrollador Back-end",
-                "Desarrollador Back-end",
                 "Desarrollador Front-end",
-                "Desarrollador Full-stack",
+                "Desarrollador Back-end",
+                "Emprendedor",
               ]}
               typeSpeed={100}
               backSpeed={40}
@@ -58,22 +56,38 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="https://github.com/yacodev" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/yacodev"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-github"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.linkedin.com/in/carlos-yaco-tincusi/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/carlos-yaco-tincusi/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://twitter.com/yacodev" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/yacodev"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="https://t.me/carlosyaco" target="_blank" rel="noreferrer">
+              <a
+                href="https://t.me/carlosyaco"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-telegram"></i>
               </a>
             </li>
@@ -131,7 +145,7 @@ function Herosection(props) {
             style={activeParallax(20)}
           >
             <path
-              d="M7.75 15L7 18L6 19H14L13 18L12.25 15M1 11H19M3 15H17C18.1046 15 19 14.1046 19 13V3C19 1.89543 18.1046 1 17 1H3C1.89543 1 1 1.89543 1 3V13C1 14.1046 1.89543 15 3 15Z" 
+              d="M7.75 15L7 18L6 19H14L13 18L12.25 15M1 11H19M3 15H17C18.1046 15 19 14.1046 19 13V3C19 1.89543 18.1046 1 17 1H3C1.89543 1 1 1.89543 1 3V13C1 14.1046 1.89543 15 3 15Z"
               stroke="#FF4C60"
               strokeWidth="2"
               fill="none"
@@ -160,7 +174,7 @@ function Herosection(props) {
             xmlns="http://www.w3.org/2000/svg"
             style={activeParallax(10)}
           >
-            <path  
+            <path
               d="M7 17V11C7 9.89543 6.10457 9 5 9H3C1.89543 9 1 9.89543 1 11V17C1 18.1046 1.89543 19 3 19H5C6.10457 19 7 18.1046 7 17ZM7 17V7C7 5.89543 7.89543 5 9 5H11C12.1046 5 13 5.89543 13 7V17M7 17C7 18.1046 7.89543 19 9 19H11C12.1046 19 13 18.1046 13 17M13 17V3C13 1.89543 13.8954 1 15 1H17C18.1046 1 19 1.89543 19 3V17C19 18.1046 18.1046 19 17 19H15C13.8954 19 13 18.1046 13 17Z"
               stroke="#FFD15C"
               strokeWidth="2"
@@ -193,8 +207,8 @@ function Herosection(props) {
             style={activeParallax(18)}
           >
             <g fill="#FF4C60" fillRule="evenodd">
-              <path  
-                d="M7.75 15L7 18L6 19H14L13 18L12.25 15M1 11H19M3 15H17C18.1046 15 19 14.1046 19 13V3C19 1.89543 18.1046 1 17 1H3C1.89543 1 1 1.89543 1 3V13C1 14.1046 1.89543 15 3 15Z" 
+              <path
+                d="M7.75 15L7 18L6 19H14L13 18L12.25 15M1 11H19M3 15H17C18.1046 15 19 14.1046 19 13V3C19 1.89543 18.1046 1 17 1H3C1.89543 1 1 1.89543 1 3V13C1 14.1046 1.89543 15 3 15Z"
                 stroke="#FF4C60"
                 strokeWidth="2"
                 fill="none"
@@ -210,7 +224,7 @@ function Herosection(props) {
             xmlns="http://www.w3.org/2000/svg"
             style={activeParallax(22)}
           >
-            <path  
+            <path
               d="M7 17V11C7 9.89543 6.10457 9 5 9H3C1.89543 9 1 9.89543 1 11V17C1 18.1046 1.89543 19 3 19H5C6.10457 19 7 18.1046 7 17ZM7 17V7C7 5.89543 7.89543 5 9 5H11C12.1046 5 13 5.89543 13 7V17M7 17C7 18.1046 7.89543 19 9 19H11C12.1046 19 13 18.1046 13 17M13 17V3C13 1.89543 13.8954 1 15 1H17C18.1046 1 19 1.89543 19 3V17C19 18.1046 18.1046 19 17 19H15C13.8954 19 13 18.1046 13 17Z"
               stroke="#FFD15C"
               strokeWidth="2"
@@ -274,7 +288,7 @@ function Herosection(props) {
               d="M1 11C1 13.2091 2.79086 15 5 15H14C16.7614 15 19 12.7614 19 10C19 7.23858 16.7614 5 14 5C13.9666 5 13.9334 5.00033 13.9002 5.00098C13.4373 2.71825 11.4193 1 9 1C6.23858 1 4 3.23858 4 6C4 6.37684 4.04169 6.74395 4.12071 7.09695C2.33457 7.4976 1 9.09295 1 11Z"
               fill="none"
               stroke="#FFD15C"
-              strokeWidth="2" 
+              strokeWidth="2"
             />
           </svg>
         </div>
