@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[9],{74:function(t,o,s){"use strict";s.r(o),o.default=s.p+"static/media/construtec.77e39c29.md"}}]);
+//# sourceMappingURL=9.2774e6fa.chunk.js.map
