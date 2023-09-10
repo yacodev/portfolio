@@ -1,40 +1,43 @@
-import ScrollAnimation from "react-animate-on-scroll";
-import { Link } from "react-router-dom";
+import ScrollAnimation from 'react-animate-on-scroll';
+import { Link } from 'react-router-dom';
 
 function Work({ workData }) {
   const { id, category, title, description, image, filesource } = workData;
   const getNospaceTitle = (filesource) => {
-    let tempArr = filesource.split("/");
+    let tempArr = filesource.split('/');
     let fileName = tempArr[tempArr.length - 1];
     let getName = fileName.slice(0, -3);
-    return getName ;
+    return getName;
   };
   return (
     <ScrollAnimation
-      animateIn="fadeInUp"
-      animateOut="fadeInOut"
+      animateIn='fadeInUp'
+      animateOut='fadeInOut'
       animateOnce={true}
-      style={{height: "100%"}}
+      style={{ height: '100%' }}
     >
-      <div className="blog-item rounded bg-white shadow-dark" style={{height: "100%"}}>
-        <div className="thumb">
-          <a href="!#">
-            <span className="category">{category}</span>
+      <div
+        className='blog-item blog-side-project rounded bg-white shadow-dark'
+        style={{ height: '100%' }}
+      >
+        <div className='thumb-side-project'>
+          <a href='!#'>
+            <span className='category'>{category}</span>
           </a>
           <Link to={`/works/work-details/${id}/${getNospaceTitle(filesource)}`}>
-            <img src={image} alt="blog-title" />
+            <img src={image} alt='blog-title' width='200px' />
           </Link>
         </div>
-        <div className="details" >
-          <h4 className="my-0 title">
+        <div className='details'>
+          {/* <h4 className='my-0 title mt-4'>
             <Link
               to={`/works/work-details/${id}/${getNospaceTitle(filesource)}`}
             >
               {title}
             </Link>
-          </h4>
-          <ul className="list-inline meta mb-0 mt-2">
-            <li className="list-inline-item">{description}</li>
+          </h4> */}
+          <ul className='list-inline meta mb-0 mt-2'>
+            <li className='list-inline-item'>{description}</li>
           </ul>
         </div>
       </div>
