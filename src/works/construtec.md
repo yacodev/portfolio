@@ -1,21 +1,23 @@
 ![Construtec](/images/works/work1_construtec_opt.png)
 
-### Construtec Perú
+### Construtec
 
-Construtec Perú es una start-up fundada con el objetivo de desarrollar software para el sector de la Construcción. 
+Es una plataforma web para  realiza tus valorizaciones de obra y gestionar los almacenes de manera más eficiente.
 
-#### Entidad / Empresa: Constructec Perú.
+#### Entidad / Empresa: Grupo Constructec.
 
 #### Trabajos Realizados:
-  -  Diseñe el modelo de negocio para satisfacer una necesidad del mercado, comercialización y lanzamiento del producto.
-  -  Lidere a un equipo de tres ingenieros durante el proceso de desarrollo del software CPIP (Control de Proyectos de Inversión Pública). Puedes ver un video descriptivo del software <a href="https://www.youtube.com/watch?v=OvZoTdejOWk" target="_blank"> Aquí</a>.
-  -  Desarrolle la website de la start-up <a href="https://construtecperu.com/" target="_blank"> Construtec</a>.
-  -  Brindar capacitación en las instituciones y a los ingenieros que adquirieron el software.
+  
+  -  Funde <a href="https://construtecperu.com/" target="_blank"> Construtec</a>,  ganadores del Startup Perú 9G.,
+  -  Desarrolle la plataforma de Construtec para la gestión de almacenes y valorizaciones de obra.',
+  -  Desarrolle la landing page de  Construtec (constructecperu.com).',
+  -  Diseñe el modelo de negocio para satisfacer una necesidad del mercado, estuve también encargado de la comercialización y lanzamiento del producto.',
+  - Tecnologias implementadas: HTML, CSS, React , Typescript y Cypress.',
 
 #### Ejecución:
--  2020-2021.
+-  2022-2023.
 
 #### Logros:
 
-> -  Lograr más de 250 ingenieros que adquirieron el software.
+> -  Ganadores del Startup Perú 9G.
 

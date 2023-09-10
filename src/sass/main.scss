@@ -553,6 +553,30 @@ select.portfolio-filter-mobile {
     }
   }
 
+  .thumb-side-project {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    max-height: 130px;
+    min-height: 130px;
+    height: 130px;
+
+    img {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+      @include transition(0.3s);
+    }
+
+    &:hover {
+      img {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+  }
+
   .category {
     background: $colorpink;
     border-bottom-left-radius: 15px;

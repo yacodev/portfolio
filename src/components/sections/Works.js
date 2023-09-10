@@ -1,47 +1,48 @@
-import Work from "../elements/Work";
-import Pagetitle from "../elements/Pagetitle";
+import Work from '../elements/Work';
+import Pagetitle from '../elements/Pagetitle';
 
 const allWorks = [
   {
     id: 1,
-    title: "Construtec - CPIP",
-    image: "images/works/work1_construtec.png",
-    filesource: "../../works/construtec.md",
+    title: 'Construtec',
+    image: 'images/works/branch_construtec.png',
+    filesource: '../../works/construtec.md',
     description:
-      "Desarrollamos el software CPIP (Control de Proyecto de Inversión Pública) para le elaboración de informes mensuales y la gestión de proyectos públicos.",
-    category: "Proyecto",
+      'Ganadores del Startup Perú 9G,  Desarrollamos una plataforma para valorizaciones de obra y gestión de almacenes.',
+    category: 'Side project',
   },
   {
     id: 2,
-    title: "Seguimiento a la ejecución de proyectos de Inversión",
-    image: "images/works/work2_spip.png",
-    filesource: "../../works/spip.md",
+    title: 'Construinnova',
+    image: 'images/works/branch_construinnova.png',
+    filesource: '../../works/construinnova.md',
     description:
-      "Desarrollamos la plataforma web para realizar el seguimiento al avance de las obras del gobierno regional de Cusco.",
-    category: "Proyecto",
+      'Constuinnova fue una side-project , donde  desarrollamos el CPIP, un software de escritorio para la elaboración de informes mensuales en obras públicas, opero por 3 años. ',
+
+    category: 'Side project',
   },
   {
     id: 3,
-    title: "Plataforma de Capacitación para ATMs",
-    image: "images/works/work3_capacitation.png",
-    filesource: "../../works/capacitation.md",
+    title: 'Evertech',
+    image: 'images/works/branch_evertech.png',
+    filesource: '../../works/evertech.md',
     description:
-      "Desarrollamos la plataforma web para realizar capacitaciones al personal de las ATMs en la región del Cusco.",
-    category: "Proyecto",
+      'Evertech fue una startup dedica a la emisión de públicidad en buses de transporte público, operó por 2 años antes de su cierre. ',
+    category: 'Startup',
   },
 ];
 
 function Works() {
   return (
-    <section id="blog">
-      <div className="container">
-        <Pagetitle title="Proyectos personales:" />
-        <div className="row blog-wrapper">
+    <section id='blog'>
+      <div className='container'>
+        <Pagetitle title='Proyectos personales:' />
+        <div className='row blog-wrapper'>
           {allWorks.map((workItem) => (
             <div
-              className="col-md-4"
+              className='col-md-4'
               key={workItem.id}
-              style={{ marginTop: "15px" }}
+              style={{ marginTop: '15px' }}
             >
               <Work workData={workItem} />
             </div>
