@@ -1,53 +1,53 @@
-import React, { useState, useEffect } from "react";
-import HeaderBlog from "../components/layouts/HeaderBlog";
-import Blog from "../components/elements/Blog";
-import Pagination from "../components/elements/Pagination";
+import React, { useState, useEffect } from 'react';
+import HeaderBlog from '../components/layouts/HeaderBlog';
+import Blog from '../components/elements/Blog';
+import Pagination from '../components/elements/Pagination';
 
 const allBlogs = [
   {
     id: 1,
-    title: "Sistema de telemetría aplicada al monitoreo de solución madre.",
-    image: "images/blog/blog_water_opt.png",
-    filesource: "../../blogs/project-water.md",
-    date: "Noviembre, 2021",
-    author: "Carlos Yaco - Juan Vizcardo - Bengie Serrano",
-    category: "Implementación",
+    title: 'Sistema de telemetría aplicada al monitoreo de solución madre.',
+    image: 'images/blog/blog_water_opt.png',
+    filesource: '../../blogs/project-water.md',
+    date: 'Diciembre, 2022',
+    author: 'Carlos Yaco - Juan Vizcardo - Bengie Serrano',
+    category: 'Implementación',
   },
   {
     id: 2,
-    title: "Eso nunca Funcionará (el nacimiento de Netflix).",
-    image: "images/blog/blog_netflix_opt.png",
-    filesource: "../../blogs/blog-netflix.md",
-    date: "Octubre, 2021",
-    author: "Carlos Yaco",
-    category: "Resumen",
+    title: 'Eso nunca Funcionará (el nacimiento de Netflix).',
+    image: 'images/blog/blog_netflix_opt.png',
+    filesource: '../../blogs/blog-netflix.md',
+    date: 'Noviembre, 2022',
+    author: 'Carlos Yaco',
+    category: 'Resumen',
   },
   {
     id: 3,
-    title: "Four - el ADN secreto de Amazon, Apple, Facebook y Google.",
-    image: "images/blog/blog_four_opt.png",
-    filesource: "../../blogs/blog-four.md",
-    date: "Octubre, 2021",
-    author: "Carlos Yaco",
-    category: "Resumen",
+    title: 'Four - el ADN secreto de Amazon, Apple, Facebook y Google.',
+    image: 'images/blog/blog_four_opt.png',
+    filesource: '../../blogs/blog-four.md',
+    date: 'Julio, 2022',
+    author: 'Carlos Yaco',
+    category: 'Resumen',
   },
   {
     id: 4,
-    title: "El libro negro del Emprendedor.",
-    image: "images/blog/blog_entrepreneur_opt.png",
-    filesource: "../../blogs/blog-entrepreneur.md",
-    date: "Setiembre, 2021",
-    author: "Carlos Yaco",
-    category: "Resumen",
+    title: 'El libro negro del Emprendedor.',
+    image: 'images/blog/blog_entrepreneur_opt.png',
+    filesource: '../../blogs/blog-entrepreneur.md',
+    date: 'Diciembre, 2021',
+    author: 'Carlos Yaco',
+    category: 'Resumen',
   },
   {
     id: 5,
-    title: "El millonario de Silicon Valley.",
-    image: "images/blog/blog_silicon_valley_opt.png",
-    filesource: "../../blogs/blog-silicon-valley.md",
-    date: "Setiembre, 2021",
-    author: "Carlos Yaco",
-    category: "Resumen",
+    title: 'El millonario de Silicon Valley.',
+    image: 'images/blog/blog_silicon_valley_opt.png',
+    filesource: '../../blogs/blog-silicon-valley.md',
+    date: 'Setiembre, 2021',
+    author: 'Carlos Yaco',
+    category: 'Resumen',
   },
 ];
 
@@ -74,8 +74,8 @@ function Bloglist() {
 
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  document.addEventListener("click", function (e) {
-    if (e.target.closest(".content")) {
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('.content')) {
       setToggleMenu(false);
     }
   });
@@ -83,18 +83,18 @@ function Bloglist() {
   return (
     <>
       <HeaderBlog />
-      <main className={toggleMenu ? "content open" : "content"}>
-        <div className="spacer" data-height="96"></div>
-        <div className="blog-page-section">
-          <div className="container">
-            <div className="row blog-wrapper fix-spacing">
+      <main className={toggleMenu ? 'content open' : 'content'}>
+        <div className='spacer' data-height='96'></div>
+        <div className='blog-page-section'>
+          <div className='container'>
+            <div className='row blog-wrapper fix-spacing'>
               {currentPosts.map((blogItem) => (
-                <div className="col-md-6" key={blogItem.id}>
+                <div className='col-md-6' key={blogItem.id}>
                   <Blog blogData={blogItem} />
                 </div>
               ))}
             </div>
-            <div className="spacer" data-height="50"></div>
+            <div className='spacer' data-height='50'></div>
             {!(posts.length > postsPerPage) ? null : (
               <Pagination
                 itemsPerPage={postsPerPage}
@@ -105,7 +105,7 @@ function Bloglist() {
             )}
           </div>
         </div>
-        <div className="spacer" data-height="96"></div>
+        <div className='spacer' data-height='96'></div>
       </main>
     </>
   );

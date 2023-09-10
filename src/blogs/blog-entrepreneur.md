@@ -6,7 +6,7 @@ La gran  mayoría de libros de emprendimiento se centran en historias de éxito,
 
 A lo largo del libro se plantean los obstáculos con las que tropiezan el 95% de emprendedores que  no logran superar los primeros 5 años de vida, el autor  introduce el termino Factores Claves del Fracaso, para representar cada uno de estos factores  que debe considerar el emprendedor antes de empezar su aventura:
 
-##### 1. Emprender con un motivo pero sin una motivación:
+#### 1. Emprender con un motivo pero sin una motivación:
 Hay que distinguir entre estos dos términos: el motivo es el detonante(cambiar de sector, querer no depende de ningún jefe,  desear la libertad económica, etc ), la motivación hace referencia a las ganas, a la ilusión, al deseo profundo de emprender.
 “La idea” no es un motivo para ser un emprendedor, olvídese un momento de la idea y piense, ¿Qué le mueve realmente a emprender?, por ejemplo alguien no se convierte en escrito porque  se el ocurrió un gran argumento para un libro,  sino porque desea ser escritor.
 Más importante que cualquier motivo, y esto incluye a la idea, es la motivación que tienes, el motivo es irrelevante mientras haya motivación, es decir, si estas suficientemente ilusionado con el hecho de emprender.
