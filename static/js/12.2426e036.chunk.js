@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[12],{77:function(p,t,i){"use strict";i.r(t),t.default=i.p+"static/media/spip.51381290.md"}}]);
+//# sourceMappingURL=12.2426e036.chunk.js.map

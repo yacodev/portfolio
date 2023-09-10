@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[9],{74:function(o,t,i){"use strict";i.r(t),t.default=i.p+"static/media/construinnova.deb74f58.md"}}]);
+//# sourceMappingURL=9.1748926b.chunk.js.map
