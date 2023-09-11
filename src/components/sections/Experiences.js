@@ -5,7 +5,7 @@ const experienceData = [
   {
     id: 1,
     title: 'Desarrollador Front-end',
-    years: 'Enero 2021 – Actualidad',
+    years: 'Enero 2022 – Actualidad',
     content: 'Startup DEUNA: Libera el poder de tu  e-commerce',
     description: [
       'Desarrollo del admin web para que puedas administrar tu tienda virtual.',
@@ -18,7 +18,7 @@ const experienceData = [
   {
     id: 2,
     title: 'Fundador - Desarrollador Front-end',
-    years: 'Julio 2020 – Diciembre 2022',
+    years: 'Enero 2023 – Agosto 2023',
     content: 'Construtec: Software para la construcción.',
     description: [
       'Funde Construtec,  ganadores del Startup Perú 9G.',
@@ -31,7 +31,7 @@ const experienceData = [
   {
     id: 3,
     title: 'Desarrollador Front-end',
-    years: 'Agosto 2020 – Diciembre 2020',
+    years: 'Julio 2020 – Diciembre 2020',
     content: 'Dirección Regional de Vivienda Construcción y Saneamiento',
     description: [
       'Desarrollo de una aplicación web para brindar capacitación al personal de las municipalidades de toda la región Cusco (http://lacasadelatm.com).',
@@ -43,7 +43,7 @@ const experienceData = [
 
   {
     id: 4,
-    title: 'Desarrollador full Stack',
+    title: 'Desarrollador Full stack',
     years: 'Octubre 2019 – Diciembre 2019',
     content: 'Smart Cities Peru: Software factory',
     description: [
@@ -54,7 +54,7 @@ const experienceData = [
   },
   {
     id: 5,
-    title: 'Product Manager - Product Owner ',
+    title: 'Product manager - Product owner ',
     years: 'Enero 2016 – Agosto 2017',
     content: 'Construinnova Perú',
     description: [
