@@ -5,8 +5,8 @@ import styled from '@emotion/styled';
 
 const ContainerAvatar = styled.div`
   img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
   }
 `;
 
