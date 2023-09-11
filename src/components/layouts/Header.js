@@ -1,13 +1,11 @@
-import React, { useState } from "react";
-import { Link } from "react-scroll";
-import styled from "@emotion/styled";
-
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
+import styled from '@emotion/styled';
 
 const ContainerHeader = styled.div`
-  display:flex;
-  justify-content:center;
-`
-
+  display: flex;
+  justify-content: center;
+`;
 
 function Header({ light }) {
   const [toggleNavbar, setToggleNavbar] = useState(false);
@@ -17,8 +15,8 @@ function Header({ light }) {
     setToggleNavbar(!toggleNavbar);
   };
 
-  document.addEventListener("click", function (e) {
-    if (e.target.closest(".content-3")) {
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('.content-3')) {
       setToggleNavbar(false);
     }
   });
@@ -27,39 +25,38 @@ function Header({ light }) {
     <header
       className={
         light
-          ? "desktop-header-3 fixed-top light"
-          : "desktop-header-3 fixed-top"
+          ? 'desktop-header-3 fixed-top light'
+          : 'desktop-header-3 fixed-top'
       }
     >
-      <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-dark">
-          
+      <div className='container'>
+        <nav className='navbar navbar-expand-lg navbar-dark'>
           <button
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            className="navbar-toggler"
-            data-target="#navbarNavDropdown"
-            data-toggle="collapse"
-            type="button"
+            aria-controls='navbarNavDropdown'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
+            className='navbar-toggler'
+            data-target='#navbarNavDropdown'
+            data-toggle='collapse'
+            type='button'
             onClick={handleMobilenav}
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className='navbar-toggler-icon'></span>
           </button>
           <ContainerHeader
             className={
               toggleNavbar
-                ? "collapse navbar-collapse show"
-                : "collapse navbar-collapse"
+                ? 'collapse navbar-collapse show'
+                : 'collapse navbar-collapse'
             }
-            id="navbarNavDropdown"
+            id='navbarNavDropdown'
           >
-            <ul className="navbar-nav ml-auto scrollspy">
-              <li className="nav-item">
+            <ul className='navbar-nav ml-auto scrollspy'>
+              <li className='nav-item'>
                 <Link
-                  activeclass="active"
-                  className="nav-link"
-                  to="/#section-home"
+                  activeclass='active'
+                  className='nav-link'
+                  to='/#section-home'
                   spy={true}
                   smooth={true}
                   duration={300}
@@ -67,11 +64,11 @@ function Header({ light }) {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className='nav-item'>
                 <Link
-                  activeclass="active"
-                  className="nav-link"
-                  to="section-about"
+                  activeclass='active'
+                  className='nav-link'
+                  to='section-about'
                   spy={true}
                   smooth={true}
                   duration={300}
@@ -79,11 +76,11 @@ function Header({ light }) {
                   Acerca
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className='nav-item'>
                 <Link
-                  activeclass="active"
-                  className="nav-link"
-                  to="section-experiences"
+                  activeclass='active'
+                  className='nav-link'
+                  to='section-experiences'
                   spy={true}
                   smooth={true}
                   duration={300}
@@ -91,23 +88,23 @@ function Header({ light }) {
                   Experiencia
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className='nav-item'>
                 <Link
-                  activeclass="active"
-                  className="nav-link"
-                  to="section-educations"
+                  activeclass='active'
+                  className='nav-link'
+                  to='section-services'
                   spy={true}
                   smooth={true}
                   duration={300}
                 >
-                  Educación
+                  Servicios
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className='nav-item'>
                 <Link
-                  activeclass="active"
-                  className="nav-link"
-                  to="section-blogs"
+                  activeclass='active'
+                  className='nav-link'
+                  to='section-blogs'
                   spy={true}
                   smooth={true}
                   duration={300}
@@ -115,11 +112,11 @@ function Header({ light }) {
                   Blog
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className='nav-item'>
                 <Link
-                  activeclass="active"
-                  className="nav-link"
-                  to="section-contact"
+                  activeclass='active'
+                  className='nav-link'
+                  to='section-contact'
                   spy={true}
                   smooth={true}
                   duration={300}
