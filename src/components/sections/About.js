@@ -16,8 +16,8 @@ function About() {
                     Ingenieria, entre ellas me dedico
                     <strong>
                       {' '}
-                      al desarrollo de software 👨🏻‍💻 (tanto frontend como
-                      backend).
+                      al desarrollo de software 👨🏻‍💻 (tanto frontend como backend)
+                      tengo más de 3 años de experiencia.
                     </strong>{' '}
                     Creo que la tecnología es una de las principales
                     herramientas para resolver problemas, mejorar la calidad de
@@ -32,19 +32,24 @@ function About() {
                     </strong>{' '}
                     lo arruinamos 😢, pero aun si fue una de las mejores
                     experiencias de mi vida😁. Con mi último side project
-                    "Construtec" tuve la oportunidad de
-                    <strong> ganar el Startup Perú 9G</strong>{' '}
+                    <strong>
+                      "Construtec" tuve la oportunidad de ganar el Startup Perú
+                      9G
+                    </strong>{' '}
                   </p>
 
                   <p>
                     {' '}
                     <strong> Tengo seis años de experiencia </strong> trabajando
                     tanto en startups de Silicon Valley como en emprendimientos
-                    nacionales, me desenvolví en diferentes roles : Product
-                    owner, scrum master, product manager y estos últimos años
-                    como <strong> software developer</strong> tanto en la parte
-                    de Frontend (javascript, react.js y typescript), como
-                    backend (node.js con express.js).{' '}
+                    nacionales, me desenvolví en diferentes roles :
+                    <strong>
+                      {' '}
+                      Product owner, scrum master, product manager y estos
+                      últimos años como software developer
+                    </strong>{' '}
+                    tanto en la parte de Frontend (javascript, react.js y
+                    typescript), como backend (node.js con express.js).{' '}
                   </p>
 
                   <p>
