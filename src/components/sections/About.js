@@ -12,12 +12,16 @@ function About() {
               <div className='row'>
                 <div className='col-md-12'>
                   <p>
-                    Hola, me llamo Carlos Yaco, me gustan diferentes areas de la
-                    Ingenieria, entre ellas me dedico
+                    Hola, mi nombre es Carlos Yaco,{' '}
+                    <strong>
+                      soy desarrollador frontend e Ingeniero Electrónico,
+                    </strong>{' '}
+                    me gustan diferentes áreas de la Ingeniería, entre ellas me
+                    dedico
                     <strong>
                       {' '}
                       al desarrollo de software 👨🏻‍💻 (tanto frontend como backend)
-                      tengo más de 3 años de experiencia.
+                      tengo más de 4 años de experiencia.
                     </strong>{' '}
                     Creo que la tecnología es una de las principales
                     herramientas para resolver problemas, mejorar la calidad de
@@ -28,19 +32,21 @@ function About() {
                     de productos, los side projects. Años atrás
                     <strong>
                       {' '}
-                      funde juntos a uno de mis amigos una startup (Evertech),
+                      funde una startup (Evertech) juntos a uno de mis amigos,
                     </strong>{' '}
                     lo arruinamos 😢, pero aun si fue una de las mejores
-                    experiencias de mi vida😁. Con mi último side project
+                    experiencias de mi vida😁. Tambien forme parte del equipo
+                    fundador de
                     <strong>
-                      "Construtec" tuve la oportunidad de ganar el Startup Perú
-                      9G
+                      "Construtec" un SAAS para la gestión de almacenes y
+                      valorizaciones de obra, con este emprendimiento logramos
+                      ganar Startup Perú 9G
                     </strong>{' '}
                   </p>
 
                   <p>
                     {' '}
-                    <strong> Tengo seis años de experiencia </strong> trabajando
+                    <strong> Tengo 6 años de experiencia </strong> trabajando
                     tanto en startups de Silicon Valley como en emprendimientos
                     nacionales, me desenvolví en diferentes roles :
                     <strong>
@@ -54,17 +60,17 @@ function About() {
 
                   <p>
                     {' '}
-                    Me gusta tambien el sector de la Construcción
-                    <strong> soy Ingeniero Civil, </strong> trabaje por varios
-                    años desempeñandome como residente y supervisor de
+                    Me gusta también el sector de la Construcción
+                    <strong> soy Ingeniero Civil, </strong> trabajé por varios
+                    años desempeñándome como residente y supervisor de
                     proyectos, tuve la oportunidad de ganar una beca para
-                    estudiar una{' '}
+                    estudiar{' '}
                     <strong>
                       {' '}
-                      maestria en gestion y planificación en Ingenieria{' '}
+                      maestria en gestión y planificación en Ingeniería{' '}
                     </strong>{' '}
-                    en la Univerisdad Politecnica de Valencia España, fue una de
-                    las merjores experiencias de mi vida.😃
+                    en la Universidad Politécnica de Valencia en España, fue una
+                    de las mejores experiencias de mi vida.😃
                   </p>
 
                   <p>

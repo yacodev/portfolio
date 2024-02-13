@@ -5,7 +5,7 @@ const experienceData = [
   {
     id: 1,
     title: 'Desarrollador Front-end',
-    years: 'Enero 2022 – Novimebre 2023',
+    years: 'Enero 2022 – Diciembre 2023',
     content: 'Startup DEUNA: Libera el poder de tu  e-commerce',
     description: [
       'Desarrollo del admin web para que puedas administrar tu tienda virtual.',
@@ -17,13 +17,13 @@ const experienceData = [
   },
   {
     id: 2,
-    title: 'Fundador - Desarrollador Front-end',
+    title: 'Co-Fundador - Desarrollador Front-end',
     years: 'Enero 2021 – Diciembre 2021',
     content: 'Construtec: Software para la construcción.',
     description: [
-      'Funde Construtec,  ganadores del Startup Perú 9G.',
+      'Cofundador Construtec,  ganadores del Startup Perú 9G.',
+      'Lideré al equipo de desarrolladores frontend durante todo el proceso de desarrollo del producto.',
       'Desarrolle la plataforma de Construtec para la gestión de almacenes y valorizaciones de obra (https://appconstrutec.com).',
-      'Desarrolle la landing page de  Construtec (constructecperu.com).',
       'Diseñe el modelo de negocio para satisfacer una necesidad del mercado, estuve también encargado de la comercialización y lanzamiento del producto.',
       'Tecnologias implementadas: HTML, CSS, React , Typescript y Cypress.',
     ],
