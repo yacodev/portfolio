@@ -4,6 +4,17 @@ import Timeline from '../elements/Timeline';
 const experienceData = [
   {
     id: 1,
+    title: 'Desarrollador Front-end Sr.',
+    years: 'Abril 2024 – Actualidad',
+    content: 'Indra - Rimac Seguros',
+    description: [
+      'Desarrollo de una aplicación web para corredores para la emisión de nuevos seguros (TREC, CAR, eventos).',
+      'Desarrollo del nuevo proyecto SLIPs para la emisión de contratos de seguros.',
+      'Tecnologías implementadas Sass, Javascript, React, Typescript, Redux, Zustand y Micro-frontends.',
+    ],
+  },
+  {
+    id: 2,
     title: 'Desarrollador Front-end',
     years: 'Enero 2022 – Diciembre 2023',
     content: 'Startup DEUNA: Libera el poder de tu  e-commerce',
@@ -16,12 +27,11 @@ const experienceData = [
     ],
   },
   {
-    id: 2,
-    title: 'Co-Fundador - Desarrollador Front-end',
+    id: 3,
+    title: 'Desarrollador Front-end',
     years: 'Enero 2021 – Diciembre 2021',
     content: 'Construtec: Software para la construcción.',
     description: [
-      'Cofundador Construtec,  ganadores del Startup Perú 9G.',
       'Lideré al equipo de desarrolladores frontend durante todo el proceso de desarrollo del producto.',
       'Desarrolle la plataforma de Construtec para la gestión de almacenes y valorizaciones de obra (https://appconstrutec.com).',
       'Diseñe el modelo de negocio para satisfacer una necesidad del mercado, estuve también encargado de la comercialización y lanzamiento del producto.',
@@ -29,27 +39,16 @@ const experienceData = [
     ],
   },
   {
-    id: 3,
-    title: 'Desarrollador Front-end',
-    years: 'Julio 2020 – Diciembre 2020',
-    content: 'Dirección Regional de Vivienda Construcción y Saneamiento',
+    id: 4,
+    title: 'Desarrollador Full stack',
+    years: 'Enero 2020 – Diciembre 2020',
+    content: 'Smart Cities Peru: Software factory',
     description: [
       'Desarrollo de una aplicación web para brindar capacitación al personal de las municipalidades de toda la región Cusco (http://lacasadelatm.com).',
       'Dirigir al equipo de Desarrolladores utilizando la metodología SCRUM.',
-      'Diseño del Producto.',
-      'Tecnologias implementadas Sass, React y Typescript.',
-    ],
-  },
-
-  {
-    id: 4,
-    title: 'Desarrollador Full stack',
-    years: 'Octubre 2019 – Diciembre 2019',
-    content: 'Smart Cities Peru: Software factory',
-    description: [
       'Desarrollamos una plataforma web para realizar el seguimiento a la ejecución de Proyectos de Inversión Pública para el Gobierno Regional del Cusco.',
       'Tecnologías empleadas : React con Redux y para el backend Node.js con express.js.',
-      'Diseño del Producto.',
+      'Tecnologias implementadas Sass, React y Typescript.',
     ],
   },
   {

@@ -1,6 +1,6 @@
 import Typed from 'react-typed';
 import { Link } from 'react-scroll';
-import iconUser from '../../images/avatar_carlos_opt.png';
+import iconUser from '../../images/new-profile-picture-e.png';
 import styled from '@emotion/styled';
 
 const ContainerAvatar = styled.div`
@@ -44,7 +44,7 @@ function Herosection(props) {
                 '',
                 'Desarrollador de Software',
                 'Emprendedor',
-                'Ingeniero Civil',
+                'Ingeniero Electrónico',
               ]}
               typeSpeed={100}
               backSpeed={40}
