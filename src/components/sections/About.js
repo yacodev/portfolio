@@ -1,5 +1,5 @@
 import Pagetitle from '../elements/Pagetitle';
-import pdf from '../../resume/CV_carlos_yaco.pdf';
+import pdf from '../../resume/carlos-yaco-cv-frontend.pdf';
 
 function About() {
   return (
@@ -80,11 +80,16 @@ function About() {
                     equipo poniendo mi granito de arrena y{' '}
                     <strong> tener una gran aventura.</strong>
                   </p>
-                  {/* <div className='mt-3'>
-                    <a href={pdf} className='btn btn-default'>
+                  <div className='mt-3'>
+                    <a
+                      href={pdf}
+                      className='btn btn-default'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       Descargar C.V.
                     </a>
-                  </div> */}
+                  </div>
                   <div
                     className='spacer d-md-none d-lg-none'
                     data-height='30'
