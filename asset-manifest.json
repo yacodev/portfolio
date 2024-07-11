@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a9c9fcc9.chunk.css",
-    "main.js": "/static/js/main.02d4bc85.chunk.js",
-    "main.js.map": "/static/js/main.02d4bc85.chunk.js.map",
+    "main.js": "/static/js/main.b7a35b52.chunk.js",
+    "main.js.map": "/static/js/main.b7a35b52.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.592979e7.js",
     "runtime-main.js.map": "/static/js/runtime-main.592979e7.js.map",
     "static/css/2.fee89144.chunk.css": "/static/css/2.fee89144.chunk.css",
@@ -32,17 +32,17 @@
     "static/css/2.fee89144.chunk.css.map": "/static/css/2.fee89144.chunk.css.map",
     "static/css/main.a9c9fcc9.chunk.css.map": "/static/css/main.a9c9fcc9.chunk.css.map",
     "static/js/2.d7ae2940.chunk.js.LICENSE.txt": "/static/js/2.d7ae2940.chunk.js.LICENSE.txt",
-    "static/media/CV_carlos_yaco.642b211b.pdf": "/static/media/CV_carlos_yaco.642b211b.pdf",
-    "static/media/avatar_carlos_opt.00bc2b4c.png": "/static/media/avatar_carlos_opt.00bc2b4c.png",
     "static/media/blog-entrepreneur.md": "/static/media/blog-entrepreneur.5d1589ad.md",
     "static/media/blog-four.md": "/static/media/blog-four.0e0149ca.md",
     "static/media/blog-netflix.md": "/static/media/blog-netflix.3b29b15e.md",
     "static/media/blog-silicon-valley.md": "/static/media/blog-silicon-valley.ee9c1124.md",
     "static/media/capacitation.md": "/static/media/capacitation.79bff529.md",
+    "static/media/carlos-yaco-cv-frontend.21f24489.pdf": "/static/media/carlos-yaco-cv-frontend.21f24489.pdf",
     "static/media/construinnova.md": "/static/media/construinnova.deb74f58.md",
     "static/media/construtec.md": "/static/media/construtec.bcc5971a.md",
     "static/media/App.scss": "/static/media/map.0d7639e8.svg",
     "static/media/evertech.md": "/static/media/evertech.ce4f85e8.md",
+    "static/media/new-profile-picture-e.d975c36c.png": "/static/media/new-profile-picture-e.d975c36c.png",
     "static/media/project-water.md": "/static/media/project-water.f5fa81b8.md",
     "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
     "static/media/spip.md": "/static/media/spip.51381290.md"
@@ -52,6 +52,6 @@
     "static/css/2.fee89144.chunk.css",
     "static/js/2.d7ae2940.chunk.js",
     "static/css/main.a9c9fcc9.chunk.css",
-    "static/js/main.02d4bc85.chunk.js"
+    "static/js/main.b7a35b52.chunk.js"
   ]
 }
