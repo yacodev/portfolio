@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[3],{65:function(t,o,e){"use strict";e.r(o),o.default=e.p+"static/media/blog-entrepreneur.5d1589ad.md"}}]);
+//# sourceMappingURL=3.cb92c8f6.chunk.js.map

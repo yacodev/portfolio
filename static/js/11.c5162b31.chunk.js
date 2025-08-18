@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[11],{73:function(t,e,o){"use strict";o.r(e),e.default=o.p+"static/media/evertech.ce4f85e8.md"}}]);
+//# sourceMappingURL=11.c5162b31.chunk.js.map
